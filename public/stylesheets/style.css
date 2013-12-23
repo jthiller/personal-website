@@ -1,3 +1,13 @@
+::selection {
+  background: transparent;
+  border-radius: 6px;
+  text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
+}
+::-moz-selection {
+  background: #eeeeee;
+  border-radius: 6px;
+  text-shadow: 1px 1px 0 #ed2939;
+}
 html {
   background-color: #222222;
   height: 100%;

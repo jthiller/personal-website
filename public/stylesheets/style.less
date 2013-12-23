@@ -1,5 +1,20 @@
+//COLORS
 @blackColor: #222;
+@japanRed: #ed2939;
+
 @borderThickness: .25em;
+
+::selection {
+	background: transparent;
+	text-shadow: 1px 1px 0 #fff,
+				 2px 2px 0 @japanRed;
+}
+::-moz-selection {
+	// background: lighten(@blackColor, 80%);
+	background: transparent;
+	text-shadow: 1px 1px 0 #fff,
+				 2px 2px 0 @japanRed;
+}
 
 html {
 	background-color: @blackColor;
