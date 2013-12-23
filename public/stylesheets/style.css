@@ -102,6 +102,7 @@ section.intro h1 {
   font-weight: 300;
   font-size: 6em;
   font-family: "Quicksand";
+  line-height: 1em;
 }
 section.dayList {
   position: relative;
