@@ -1,40 +1,38 @@
 ::selection {
   background: transparent;
-  border-radius: 6px;
   text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
 }
 ::-moz-selection {
-  background: #eeeeee;
-  border-radius: 6px;
-  text-shadow: 1px 1px 0 #ed2939;
+  text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
+  background: transparent;
 }
 html {
-  background-color: #222222;
   height: 100%;
+  background-color: #222222;
 }
 body {
-  font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #fff;
-  height: 100%;
   margin: 0.25em;
   padding: 0;
+  height: 100%;
+  background-color: #fff;
+  font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 header {
-  margin: -0.25em 0 0 -0.25em;
   position: relative;
+  margin: -0.25em 0 0 -0.25em;
   height: 3em;
   border-top: 0.25em solid #222222;
 }
 header .menuButton {
-  height: 3em;
-  width: 3em;
-  border: 0.25em solid #222222;
-  background: #fff;
+  position: absolute;
   z-index: 10;
   margin-top: -0.25em;
-  -webkit-transform: translateZ(0);
-  position: absolute;
+  width: 3em;
+  height: 3em;
+  border: 0.25em solid #222222;
+  background: #fff;
   cursor: pointer;
+  -webkit-transform: translateZ(0);
 }
 header .menuButton:before {
   position: absolute;
@@ -43,8 +41,8 @@ header .menuButton:before {
   width: 2em;
   height: .25em;
   background-color: #222222;
-  transition: 0.2s ease;
   content: "";
+  transition: 0.2s ease;
   -webkit-transform: rotate(90deg);
 }
 header .menuButton:after {
@@ -54,8 +52,8 @@ header .menuButton:after {
   width: 2em;
   height: .25em;
   background-color: #222222;
-  transition: 0.2s ease;
   content: "";
+  transition: 0.2s ease;
 }
 header.active .menuButton:before {
   -webkit-transform: rotate(0);
@@ -73,7 +71,7 @@ header.menu ul {
   border: 0.25em solid #222222;
   background-color: #fff;
   list-style: none;
-  -webkit-transition: left 1s cubic-bezier(1, -0.2, 0, 1);
+  -webkit-transition: left 1s cubic-bezier(0, 0.5, 0.5, 1);
   -webkit-transform: translateZ(0);
 }
 @media screen and (max-width: 30em) {
@@ -86,13 +84,13 @@ header.menu.active ul {
 }
 header li {
   display: inline-block;
-  padding: 0 2em;
   margin-top: .8em;
+  padding: 0 2em;
 }
 header li a {
-  text-decoration: none;
-  color: #222222;
   border-bottom: 1px solid #fff;
+  color: #222222;
+  text-decoration: none;
   -webkit-transition: border-bottom 0.3s ease;
 }
 header li a:hover {
@@ -132,11 +130,11 @@ section.dayList .day big {
 }
 section.dayList .day .imageWrapper {
   display: inline-block;
-  border-left: 0.25em solid #222222;
   float: right;
-  width: 75%;
   padding: 0;
+  width: 75%;
   height: 300px;
+  border-left: 0.25em solid #222222;
 }
 section.dayList .day .imageWrapper video {
   display: inline-block;
