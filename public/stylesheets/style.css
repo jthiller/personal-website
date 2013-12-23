@@ -1,14 +1,134 @@
+html {
+  background-color: #222222;
+  height: 100%;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  height: 100%;
+  margin: 0.25em;
+  padding: 0;
+}
+header {
+  margin: -0.25em 0 0 -0.25em;
+  position: relative;
+  height: 3em;
+  border-top: 0.25em solid #222222;
+}
+header .menuButton {
+  height: 3em;
+  width: 3em;
+  border: 0.25em solid #222222;
+  background: #fff;
+  z-index: 10;
+  margin-top: -0.25em;
+  -webkit-transform: translateZ(0);
+  position: absolute;
+  cursor: pointer;
+}
+header .menuButton:before {
+  position: absolute;
+  top: 1.35em;
+  left: 0.5em;
+  width: 2em;
+  height: .25em;
+  background-color: #222222;
+  transition: 0.2s ease;
+  content: "";
+  -webkit-transform: rotate(90deg);
+}
+header .menuButton:after {
+  position: absolute;
+  top: 1.35em;
+  left: 0.5em;
+  width: 2em;
+  height: .25em;
+  background-color: #222222;
+  transition: 0.2s ease;
+  content: "";
+}
+header.active .menuButton:before {
+  -webkit-transform: rotate(0);
+}
+header.menu ul {
+  position: relative;
+  left: -22em;
+  z-index: 5;
+  display: inline-block;
+  float: left;
+  margin-top: -0.25em;
+  padding-top: 0;
+  width: 21em;
+  height: 3em;
+  border: 0.25em solid #222222;
+  background-color: #fff;
+  list-style: none;
+  -webkit-transition: left 1s cubic-bezier(1, -0.2, 0, 1);
+  -webkit-transform: translateZ(0);
+}
+@media screen and (max-width: 30em) {
+  header.menu ul {
+    min-width: 22em;
+  }
+}
+header.menu.active ul {
+  left: 0;
+}
+header li {
+  display: inline-block;
+  padding: 0 2em;
+  margin-top: .8em;
+}
+header li a {
+  text-decoration: none;
+  color: #222222;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: border-bottom 0.3s ease;
+}
+header li a:hover {
+  border-bottom: 1px solid #222222;
+}
+header li.active a {
+  color: #a2a2a2;
+}
+header li.active a:hover {
+  border-bottom: 1px solid #fff;
 }
 a {
   color: #00B7FF;
 }
 section.intro h1 {
-  font-family: "Quicksand";
+  text-align: center;
   font-weight: 300;
+  font-size: 6em;
+  font-family: "Quicksand";
 }
-p {
-  font-family: "proxima-nova", sans-serif;
+section.dayList {
+  position: relative;
+}
+section.dayList .day {
+  cursor: pointer;
+}
+section.dayList .day big {
+  display: inline-block;
+  float: left;
+  width: 23%;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2em;
+  font-family: "Quicksand";
+}
+section.dayList .day .imageWrapper {
+  display: inline-block;
+  border-left: 0.25em solid #222222;
+  float: right;
+  width: 75%;
+  padding: 0;
+  height: 300px;
+}
+section.dayList .day .imageWrapper video {
+  display: inline-block;
+  margin-left: .5em;
+  padding: 0;
 }

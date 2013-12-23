@@ -1,19 +1,204 @@
+@blackColor: #222;
+@borderThickness: .25em;
+
+html {
+	background-color: @blackColor;
+	height: 100%;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	// font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	height: 100%;
+	margin: @borderThickness;
+	padding: 0;
+	// padding-top: @borderThickness;
+}
+
+
+header {
+	margin: -@borderThickness 0 0 -@borderThickness;
+	position: relative;
+	height: 3em;
+	border-top: @borderThickness solid @blackColor;
+	.menuButton {
+		height: 3em;
+		width: 3em;
+		border: @borderThickness solid @blackColor;
+		background: #fff;
+		z-index: 10;
+		margin-top: -@borderThickness;
+		-webkit-transform: translateZ(0);
+		position: absolute;
+		cursor: pointer;
+		&:before {
+			position: absolute;
+			top: 1.35em;
+			left: 0.5em;
+			width: 2em;
+			height: .25em;
+			background-color: @blackColor;
+			transition: 0.2s ease;
+			content: "";
+			-webkit-transform: rotate(90deg);
+		}
+		&:after {
+			position: absolute;
+			top: 1.35em;
+			left: 0.5em;
+			width: 2em;
+			height: .25em;
+			background-color: @blackColor;
+			transition: 0.2s ease;
+			content: "";
+		}
+	}
+	&.active {
+		.menuButton:before {
+			-webkit-transform: rotate(0);
+		}
+	}
+	&.menu ul {
+		position: relative;
+		left: -22em;
+		z-index: 5;
+		display: inline-block;
+		float: left;
+		margin-top: -@borderThickness;
+		padding-top: 0;
+		width: 21em;
+		height: 3em;
+		border: @borderThickness solid @blackColor;
+		background-color: #fff;
+		list-style: none;
+		-webkit-transition: left 1s cubic-bezier(1,-0.2,0,1); //Check the validity of the curve.
+		-webkit-transform: translateZ(0);
+		@media screen and (max-width: 30em) {
+			min-width: 22em;
+		}
+	}
+	&.menu.active ul {
+		left: 0;	
+	}
+	li {
+		display: inline-block;
+		padding: 0 2em;
+		margin-top: .8em;
+		a {
+			text-decoration: none;
+			color: @blackColor;
+			border-bottom: 1px solid #fff;
+			-webkit-transition: border-bottom .3s ease;
+			&:hover {
+				border-bottom: 1px solid @blackColor;
+			}
+		}
+		&.active a{
+			color: lighten(@blackColor, 50%);
+			//nullify cursor
+			&:hover {
+				border-bottom: 1px solid #fff;
+			}
+		}
+	}
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
 }
 
 section.intro {
-}
-section.intro h1{
-	font-family: "Quicksand";
-	font-weight: 300;
+	h1{
+		text-align: center;
+		font-weight: 300;
+		font-size: 6em;
+		font-family: "Quicksand";
+		line-height: 1em;
+	}
 }
 
-p {
-	font-family: "proxima-nova",sans-serif;
+
+section.dayList {
+	position: relative;
+	.day {
+		cursor: pointer;
+		big {
+			display: inline-block;
+			float: left;
+			width: 23%;
+			text-align: right;
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 2em;
+			font-family: "Quicksand";
+		}
+		.imageWrapper {
+			display: inline-block;
+			border-left: @borderThickness solid @blackColor;
+			float: right;
+			width: 75%;
+			padding: 0;
+			height: 300px;
+			video {
+				display: inline-block;
+				margin-left: .5em;
+				padding: 0;
+			}
+		}
+	}
 }
+
+
+// .menuButton {
+//   width: 3em;
+//   height: 3em;
+//   position: absolute;
+//   border: 0.25em solid #222222;
+//   background: #fff;
+//   cursor: pointer;
+//   font-size: 100%;
+// }
+// .menuButton .bar:before, .menuButton .bar:after, .menuButton .bar {
+//   position: relative;
+//   width: 1.75em;
+//   height: 0.25em;
+//   background-color: #222;
+//   transition: 0.2s ease;
+//   content: "";
+// }
+// .menuButton .bar:before {
+//   position: absolute;
+//   top: -0.5em;
+// }
+// .menuButton .bar {
+//   top: 50%;
+//   margin: -0.16667em 0 0 0.375em;
+// }
+// .menuButton .bar:after {
+//   position: absolute;
+//   top: 0.5em;
+// }
+
+// .close .bar:before, .close .bar:after, .close .bar {
+//   margin: 0 auto;
+//   transform: translateZ(0);
+// }
+// .close .bar:before, .close .bar:after {
+//   top: 50%;
+//   margin-top: -0.25em;
+//   margin-left: 0.375em;
+//   transform-origin: 50% 50%;
+// }
+// .close .bar:before {
+//   transform: rotate(45deg);
+// }
+// .close .bar:after {
+//   transform: rotate(-45deg);
+// }
+// .close .bar {
+//   background: transparent;
+//   margin-left: 0;
+//   height: 0;
+//   top: 55%;
+// }
+
