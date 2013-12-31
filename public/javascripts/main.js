@@ -6,3 +6,6 @@
 // 	console.log(documentWidth);
 // 	$("header.menu ul").width()
 // });
+// $(document).ready(function() {
+// 	$(".menu").headroom();
+// })
