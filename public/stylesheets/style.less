@@ -10,10 +10,9 @@
 				 2px 2px 0 @japanRed;
 }
 ::-moz-selection {
+	background: transparent;
 	text-shadow: 1px 1px 0 #fff,
 				 2px 2px 0 @japanRed;
-	// background: lighten(@blackColor, 80%);
-	background: transparent;
 }
 
 html {
@@ -21,21 +20,27 @@ html {
 	background-color: @blackColor;
 }
 body {
-	margin: @borderThickness;
+	//margin: @borderThickness;
 	padding: 0;
-	height: 100%;
+	//height: 100%;
 	background-color: #fff;
 	// font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 	font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
 	// padding-top: @borderThickness;
+
+
+	min-height: 100%;
+	border: @borderThickness solid @blackColor;
+	box-sizing: border-box;
 }
 
 
 header {
 	position: relative;
 	margin: -@borderThickness 0 0 -@borderThickness;
-	height: 3em;
+	height: 3.2em;
 	border-top: @borderThickness solid @blackColor;
+	overflow: hidden;
 	.menuButton {
 		position: absolute;
 		z-index: 10;
@@ -161,6 +166,31 @@ section.dayList {
 			}
 		}
 	}
+}
+
+section {
+	&.rightside {
+		width: 55em;
+		position: relative;
+		float: right;
+		clear: both;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@desktop:   ~"only screen and (min-width: 960px) and (max-width: 1199px)";
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+
+footer{
+  width: 100%;
+  @media @tablet {
+    width: 768px;
+  }
+  @media @desktop {
+    width: 940px;
+  }
 }
 
 

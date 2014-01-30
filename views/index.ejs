@@ -4,17 +4,21 @@
 		<title><%= title %></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel='stylesheet' href='/stylesheets/style.css' />
+		<!--[if lt IE 9]>
+			<script src="components/html5shiv/html5shiv.js"></script>
+		<![endif]-->
 	</head>
 	<body>
 	<header class="menu">
 		<div class="menuButton" onclick="$('.menu').toggleClass('active');"></div>
+		<nav></nav> <!-- convert to nav -->
 		<ul>
 			<li><a href="">Home</a></li>
 			<li><a href="">About</a></li>
 			<li class="active"><a href="">Blog</a></li>
 		</ul>
 	</header>
-	<section class="intro">
+	<section class="intro" role="intro">
 		<h1>TOKYO</h1>
 	</section>
 	<section class="dayList">
@@ -26,6 +30,15 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Column test 
+	<section><img src="http://placekitten.com/300/300"></section>
+	<div class="darkbg"> 
+		<section class="rightside"><img src="http://placekitten.com/g/300/300"></section>
+	</div>
+	<section class="rightside"><img src="http://placekitten.com/g/300/300"></section>-->
+
+	<!-- some ejs noise -->
 	<!-- <h1><%= title %></h1> 
 	<p>Welcome to <%= title %></p>-->
 	

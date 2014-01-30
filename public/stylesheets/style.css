@@ -3,25 +3,27 @@
   text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
 }
 ::-moz-selection {
-  text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
   background: transparent;
+  text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #ed2939;
 }
 html {
   height: 100%;
   background-color: #222222;
 }
 body {
-  margin: 0.25em;
   padding: 0;
-  height: 100%;
   background-color: #fff;
   font: 14px "proxima-nova", "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  border: 0.25em solid #222222;
+  box-sizing: border-box;
 }
 header {
   position: relative;
   margin: -0.25em 0 0 -0.25em;
-  height: 3em;
+  height: 3.2em;
   border-top: 0.25em solid #222222;
+  overflow: hidden;
 }
 header .menuButton {
   position: absolute;
@@ -140,4 +142,26 @@ section.dayList .day .imageWrapper video {
   display: inline-block;
   margin-left: .5em;
   padding: 0;
+}
+section.rightside {
+  width: 55em;
+  position: relative;
+  float: right;
+  clear: both;
+}
+section.rightside img {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+  footer {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+  footer {
+    width: 940px;
+  }
 }
