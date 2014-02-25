@@ -61,4 +61,10 @@ Planning/
 *.sql
 *.sqlite
 
+# Sublime #
+###########
+*.sublime-project
 
+# Misc #
+########
+old/

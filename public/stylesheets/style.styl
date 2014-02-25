@@ -1,0 +1,317 @@
+blackColor = #222
+
+proximaFamily = "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+borderThickness = .25em
+borderAnimTime = .35s
+
+
+// ==================================
+// ***** MEDIA QUERIES FUNCTION *****
+// Via http://kizu.ru/en/issues/new-stylus-features/
+
+// Define the cache and the aliases
+$media_cache = {}
+$media_aliases = {
+	phones: 	'(max-width: 20em)'
+	tablet: 	'(min-width: 48em)'
+	bigscreen:	'(min-width: 75em)'
+}
+
+// Mixin for caching breakpoint styles
+media($condition)
+	helper($condition)
+		unless $media_cache[$condition]
+			$media_cache[$condition] = ()
+		push($media_cache[$condition], block)
+
+	+helper($condition)
+		{selector() + ''}
+			{block}
+
+// Function to call the cached styles
+apply_media_cache()
+	for $media, $blocks in $media_cache
+		$media = unquote($media_aliases[$media] || $media)
+		$media = '(%s)' % $media unless match('\(', $media)
+		$media = 'only screen and %s' % $media
+		@media $media
+			for $block in $blocks
+				{$block}
+
+// *****   END MEDIA QUERIES    *****
+// ==================================
+
+
+
+body
+	padding: 0
+	margin: 0
+	background: #fff
+	color: blackColor
+	font: 14px proximaFamily
+
+.pageframe
+	box-sizing: border-box
+	position: fixed
+	z-index: 10000
+	position: absolute
+	.t, .r, .b, .l
+		position: fixed
+		width: 0
+		height: 0
+		border: (borderThickness/2) solid blackColor
+		transition: all borderAnimTime ease-in-out
+	.t, .b
+		width: 100%
+	.r, .l
+		height: 100%
+	.t
+		top: 0
+		right: 0
+		transform: translateX(-50%) 
+	.r
+		bottom: 0
+		right: 0
+		transform: translateY(-100%)
+		transition-delay: $borderAnimTime
+	.b
+		bottom: 0
+		left: 0
+		transform: translateX(-100%)
+		transition-delay: $borderAnimTime
+	.l
+		top: 0
+		left: 0
+		transform: translateY(-50%)
+	&.headeranim .t
+		animation-name: mockload
+		animation-duration: 15s
+		animation-timing-function: ease-in
+		animation-iteration-count: 1
+		animation-fill-mode: forwards
+		animation-delay: .5s
+	&.loaded .t, &.loaded .b
+		transform: translateX(0) 
+	&.loaded .r, &.loaded .l
+		transform: translateY(0)
+
+@keyframes mockload
+	0% 
+		transform: translateX(-90%)
+	2% 
+		transform: translateX(-94%)
+	8%, 10% 
+		transform: translateX(-85%)
+	16% 
+		transform: translateX(-70%)
+	50% 
+		transform: translateX(-55%)
+	100% 
+		transform: translateX(-50%)
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span
+	opacity: 0
+	transition: opacity .2s ease-out
+
+.wf-active p, .wf-inactive p,
+.wf-active h1, .wf-inactive h1,
+.wf-active h2, .wf-inactive h2,
+.wf-active h3, .wf-inactive h3,
+.wf-active h4, .wf-inactive h4,
+.wf-active h5, .wf-inactive h5,
+.wf-active h6, .wf-inactive h6,
+.wf-active span, .wf-inactive span
+	opacity: 1
+
+.browsehappy
+	margin: 0 0 0.2em
+	background: #D52626
+	color: #FFF
+	padding: 0.5em
+	a
+		border-bottom: 2px solid #fff
+		color: #FFF
+		text-decoration: none
+		font-weight: bold
+		&:hover
+			border-bottom: 3px solid #fff
+
+header 
+	buttonSize = 3em
+	position: fixed
+	margin: borderThickness 0 0 borderThickness
+	height: buttonSize + borderThickness
+	overflow: hidden
+	z-index: 150
+	top: 0
+	left: 0
+	transform: scale(.8)
+	transform-origin: top left
+	.menuButton 
+		position: absolute
+		z-index: 10
+		width: buttonSize
+		height: buttonSize
+		border: borderThickness solid blackColor
+		border-top: none
+		border-left: none
+		background: #fff
+		cursor: pointer
+		transform: translateZ(0)
+		&:before 
+			position: absolute
+			top: 0.45*buttonSize
+			left: (buttonSize/6)
+			width: 2em
+			height: (buttonSize/12)
+			background-color: blackColor
+			content: ""
+			transition: .2s ease
+			transform: rotate(90deg)
+		&:after 
+			position: absolute
+			top: 0.45*buttonSize
+			left: (buttonSize/6)
+			width: ((2*buttonSize)/3)
+			height: (buttonSize/12)
+			background-color: blackColor
+			content: ""
+			transition: .2s ease
+	&.active 
+		.menuButton:before 
+			transform: rotate(0)
+	&.menu ul 
+		position: relative
+		left: -22em
+		z-index: 5
+		display: inline-block
+		float: left
+		margin-top: -borderThickness
+		padding-top: 0
+		width: 21em // Needed for the bump left
+		height: buttonSize
+		border: borderThickness solid blackColor
+		background-color: #fff
+		list-style: none
+		transition: left .75s cubic-bezier(0,.5,.5,1) //Check the validity of the curve.
+		transform: translateZ(0)
+		+media(phones) 
+			min-width: 22em
+	&.menu.active ul 
+		left: 0
+	li 
+		display: inline-block
+		margin-top: .8em
+		padding: 0 2em
+		a 
+			border-bottom: 1px solid #fff
+			color: blackColor
+			text-decoration: none
+			transition: border-bottom .3s ease
+			&:hover 
+				border-bottom: 1px solid blackColor
+		&.active a
+			color: blackColor + 50%
+			&:hover 
+				border-bottom: 1px solid #fff
+
+.mainContainer
+	position: relative;
+	display: block;
+
+section.masthead
+	height: 50em
+	margin-bottom: -20em
+	margin-bottom: -15em
+	background: url(/images/JAPAN_Simplified.svg) center center no-repeat
+	background-size: 40em
+	transition: all 1s ease
+	position: relative
+	z-index: -1
+	+media('tablet')
+		height: 40em
+		margin-bottom: -16em
+		background-size: 35em
+	+media('phones')
+		height: 30em
+		margin-bottom: -12em
+		background-size: 25em
+	.title
+		position: absolute
+		bottom: 60%
+		left: 30%
+		margin: 0
+		min-width: 60%
+		border-bottom: 1rem solid blackColor
+		text-transform: uppercase
+		letter-spacing: -.05em
+		font-weight: 300
+		font-size: 5em
+		font-family: Quicksand, sans-serif
+		line-height: 1em
+		transition: padding 1s, bottom 1s, font-size 1s, border 1s, line-height 1s
+		transition-timing-function: ease
+		+media('tablet')
+			font-size: 4.5em
+			border-bottom: .5rem solid blackColor
+		+media('phones')
+			font-size: 2em
+			border-bottom: .25rem solid blackColor
+
+section.singleImage
+	overflow-y: hidden
+	margin-bottom: 2.5rem
+	width: 100%
+	height: 13em
+	transition: margin 1s ease, height 1s ease
+	+media('tablet')
+		margin-bottom: 2rem
+		height: 8rem 
+	+media('phones')
+		margin-bottom: 1rem
+		height: 6rem
+	.caption
+		display: inline-block
+		padding-right: 3px
+		width: 30%
+		border-right: 0.15rem solid black
+		vertical-align: top
+		text-align: right
+		text-transform: uppercase
+		font-size: 11px
+		p, h3
+			margin: 0
+			padding: 0 
+			max-width: 70%
+			float: right
+			clear: both
+			+media('tablet')
+				max-width: 90%
+	img
+		width: 60%
+		+media('phones')
+			padding-left: 2.5%
+
+footer
+	position: fixed
+	bottom: borderThickness
+	left: borderThickness * 2
+	a
+		text-decoration: none
+		color: #bbb
+		font-size: 10px
+		&:hover
+			color: #aaa
+
+
+
+// Output Breakpoint Styles
+apply_media_cache()
