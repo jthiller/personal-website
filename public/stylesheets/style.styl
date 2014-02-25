@@ -5,7 +5,6 @@ proximaFamily = "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif
 borderThickness = .25em
 borderAnimTime = .35s
 
-
 // ==================================
 // ***** MEDIA QUERIES FUNCTION *****
 // Via http://kizu.ru/en/issues/new-stylus-features/
@@ -41,8 +40,6 @@ apply_media_cache()
 
 // *****   END MEDIA QUERIES    *****
 // ==================================
-
-
 
 body
 	padding: 0
@@ -166,25 +163,20 @@ header
 		background: #fff
 		cursor: pointer
 		transform: translateZ(0)
-		&:before 
+		&:before, &:after 
 			position: absolute
 			top: .45*buttonSize
 			left: (buttonSize/6)
+			background-color: blackColor
+			content: ""
+			transition: .2s ease			
+		&:before 
 			width: 2em
 			height: (buttonSize/12)
-			background-color: blackColor
-			content: ""
-			transition: .2s ease
 			transform: rotate(90deg)
 		&:after 
-			position: absolute
-			top: .45*buttonSize
-			left: (buttonSize/6)
 			width: ((2*buttonSize)/3)
 			height: (buttonSize/12)
-			background-color: blackColor
-			content: ""
-			transition: .2s ease
 	&.active 
 		.menuButton:before 
 			transform: rotate(0)
