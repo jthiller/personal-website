@@ -89,7 +89,7 @@ body {
   margin: 0 0 0.2em;
   background: #d52626;
   color: #fff;
-  padding: 0.5em;
+  padding: 0.75em 5em;
 }
 .browsehappy a {
   border-bottom: 2px solid #fff;
@@ -123,26 +123,23 @@ header .menuButton {
   cursor: pointer;
   transform: translateZ(0);
 }
-header .menuButton:before {
-  position: absolute;
-  top: 1.35em;
-  left: 0.5em;
-  width: 2em;
-  height: 0.25em;
-  background-color: #222;
-  content: "";
-  transition: 0.2s ease;
-  transform: rotate(90deg);
-}
+header .menuButton:before,
 header .menuButton:after {
   position: absolute;
   top: 1.35em;
   left: 0.5em;
-  width: 2em;
-  height: 0.25em;
   background-color: #222;
   content: "";
   transition: 0.2s ease;
+}
+header .menuButton:before {
+  width: 2em;
+  height: 0.25em;
+  transform: rotate(90deg);
+}
+header .menuButton:after {
+  width: 2em;
+  height: 0.25em;
 }
 header.active .menuButton:before {
   transform: rotate(0);
