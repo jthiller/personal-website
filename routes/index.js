@@ -6,7 +6,7 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{
-			"title": "Joey Hiller",
+			"title": "Joey <br>Hiller",
 			"name": "Letsgo.io",
 			"description": "Your standard form button.",
 			"state": [
@@ -39,6 +39,6 @@ exports.index = function(req, res){
 	);
 };
 
-// exports.about = function(req, res){
-//   res.render('about', { title: 'About' });
-// };
+exports.about = function(req, res){
+  res.render('about', { title: 'About' });
+};

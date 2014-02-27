@@ -25,14 +25,14 @@
 			<!-- <nav></nav> convert to nav -->
 			<ul>
 				<li class="active"><a href="">Home</a></li>
-				<li><a href="">About</a></li>
+				<li><a href="/about/">About</a></li>
 				<li><a href="">Blog</a></li>
 			</ul>
 		</header>
 
 		<div class="mainContainer">
 			<section class="masthead">
-				<h1 class="title">{{ title}}</h1>
+				<h1 class="title">{{{title}}}</h1>
 			</section>
 
 
