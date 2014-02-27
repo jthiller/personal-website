@@ -29,7 +29,7 @@ app.use(app.router);
 function compile(str, path) {
   return stylus(str)
     .set('filename', __dirname + '/public')
-    .set('compress', true)
+    .set('compress', false)
     .use(nib());
 }
 app.use(stylus.middleware({
