@@ -17,7 +17,7 @@ app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 // app.set('templates', __dirname + '/views/templates'); //New
 app.set('view engine', 'hjs');
-app.use(express.favicon());
+app.use(express.favicon(path.join(__dirname, 'public/images/favicon.ico'))); 
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
