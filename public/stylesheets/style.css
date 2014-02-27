@@ -3,7 +3,7 @@ body {
   margin: 0;
   background: #fff;
   color: #222;
-  font: 14px "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.3 "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pageframe {
   box-sizing: border-box;
@@ -150,7 +150,7 @@ header.menu ul {
   z-index: 5;
   display: inline-block;
   float: left;
-  margin-top: -borderThickness;
+  margin-top: -0.25em;
   padding-top: 0;
   width: 21em;
   height: 3em;
