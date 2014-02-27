@@ -8,7 +8,9 @@ var express = require('express')
   , user = require('./routes/user')
   , about = require('./routes/about')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , stylus = require('stylus')
+  , nib = require('nib');
 
 var app = express();
 
@@ -23,8 +25,20 @@ app.use(express.methodOverride());
 // app.use(express.cookieParser('your secret here'));
 // app.use(express.session());
 app.use(app.router);
-  app.use(require('stylus').middleware(__dirname + '/public'));
+
+function compile(str, path) {
+  return stylus(str)
+    .set('filename', __dirname + '/public')
+    .set('compress', true)
+    .use(nib());
+}
+app.use(stylus.middleware({
+    src: __dirname + '/public'
+  , compile: compile
+}));
+app.use(require('stylus').middleware(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
+
 
 // development only
 if ('development' == app.get('env')) {
