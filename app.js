@@ -56,6 +56,7 @@ app.get('/about', routes.about);
 // Project pages
 app.get('/portfolio', projects.portfolio);
 app.get('/letsgoio', projects.letsgoio);
+app.get('/acmemade', projects.acmemade);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('[✔] Express server listening on port ' + app.get('port'));

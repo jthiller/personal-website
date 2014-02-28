@@ -4,28 +4,24 @@ exports.portfolio = function(req, res){
 			"pagetitle": "New Portfolio",
 			"title": "Portfolio<br>Redesign",
 			"projectcontent": [
+				// {
+				// 	"headline": "Creating trips around great photos."
+				// },
 				{
-					"headline": "Creating trips around great photos."
+					"sectiontitle": "Who's this guy?",
+					"content": "To fit me into a cliche, I'm the country kid who's working his ass off to make it in the big city.<br>More words..."
 				},
-				{ 
-					"title": "New Portfolio",
-					"caption": "A new website for a new year",
-					"image": "http://placekitten.com/900/500",
-					"link": "/portfolio/"
-				},
-				{ 
-					"title": "LetsGo.io",
-					"caption": "Creating trips around great photos.",
-					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+				{
 					"image": "http://placekitten.com/g/900/500",
-					"link": "/letsgoio/"
+					"imagealt": "Me a long time ago.",
+					"link": ""
 				},
-				{ 
-					"title": "AcmeMade",
-					"caption": "Products that speak style.",
-					"subcaption": "Complete eCommerce on Magento core.",
-					"image": "http://placekitten.com/900/500",
-					"link": "/acmemade/"
+				{
+					"sectiontitle": "My story",
+					"content": "Even more words."
+				},
+				{
+					"content": "The technical details of this site."
 				}
 			]
 		}
@@ -38,30 +34,34 @@ exports.letsgoio = function(req, res){
 			"pagetitle": "LetsGo.io",
 			"title": "LetsGo.io",
 			"projectcontent": [
+				// {
+				// 	"headline": "Creating trips around great photos."
+				// },
 				{
-					"headline": "Creating trips around great photos."
+					// "sectiontitle": "",
+					"content": "In June 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better.</em>&#8221;"
 				},
-				{ 
-					"title": "New Portfolio",
-					"caption": "A new website for a new year",
-					"image": "http://placekitten.com/900/500",
-					"link": "/portfolio/"
-				},
-				{ 
-					"title": "LetsGo.io",
-					"caption": "Creating trips around great photos.",
-					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+				{
 					"image": "http://placekitten.com/g/900/500",
-					"link": "/letsgoio/"
+					"imagealt": "Me a long time ago.",
+					"link": ""
 				},
-				{ 
-					"title": "AcmeMade",
-					"caption": "Products that speak style.",
-					"subcaption": "Complete eCommerce on Magento core.",
-					"image": "http://placekitten.com/900/500",
-					"link": "/acmemade/"
+				{
+					"sectiontitle": "My story",
+					"content": "Even more words."
+				},
+				{
+					"content": "The technical details of this site."
 				}
 			]
+		}
+	);
+};
+
+exports.acmemade = function(req, res){
+	res.render('index', 
+		{
+			"pagetitle": "AcmeMade",
 		}
 	);
 };
