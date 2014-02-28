@@ -6,7 +6,6 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
-  // , about = require('./routes/about')
   , http = require('http')
   , path = require('path')
   , stylus = require('stylus')
@@ -45,8 +44,11 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+/**
+ * App routing.
+ */
+
 app.get('/', routes.index);
-// app.get('/about', about.list);
 app.get('/about', routes.about);
 app.get('/users', user.list);
 
