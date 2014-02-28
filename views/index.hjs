@@ -68,6 +68,10 @@
 			{{/image}}
 		{{/aboutcontent}}
 
+		{{#projectcontent}}
+			{{headline}}
+		{{/projectcontent}}
+
 
 		</div>
 
