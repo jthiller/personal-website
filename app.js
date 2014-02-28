@@ -6,7 +6,7 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
-  , about = require('./routes/about')
+  // , about = require('./routes/about')
   , http = require('http')
   , path = require('path')
   , stylus = require('stylus')
@@ -46,9 +46,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/about', about.list);
+// app.get('/about', about.list);
+app.get('/about', routes.about);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
-  console.log('Express server listening on port ' + app.get('port'));
+  console.log('[✔] Express server listening on port ' + app.get('port'));
 });

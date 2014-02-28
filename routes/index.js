@@ -6,10 +6,8 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{
-			"pagetitle": "Joey Hiller",
+			"pagetitle": "Home",
 			"title": "Joey <br>Hiller",
-			"name": "Letsgo.io",
-			"description": "Your standard form button.",
 			"projects": [
 				{ 
 					"title": "New Portfolio",
@@ -26,7 +24,7 @@ exports.index = function(req, res){
 				},
 				{ 
 					"title": "AcmeMade",
-					"caption": "Creating trips around great photos.",
+					"caption": "Products that speak style.",
 					"subcaption": "Complete eCommerce on Magento core.",
 					"image": "http://placekitten.com/900/500",
 					"link": "/acmemade/"
@@ -40,6 +38,15 @@ exports.index = function(req, res){
 	);
 };
 
+// exports.footer = function(req, res){
+// 	res.render('footer', { 'content' });
+// };
+
 exports.about = function(req, res){
-  res.render('about', { title: 'About' });
+	res.render('index',
+		{
+			pagetitle: 'About' ,
+			title: "About<br>Joey Hiller"
+		}
+	);
 };

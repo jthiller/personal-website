@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ pagetitle }} - Name</title>
+		<title>Joey Hiller - {{ pagetitle }}</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		{{! <meta name="description" content=""> }}
@@ -34,26 +34,26 @@
 				<h1 class="title">{{{title}}}</h1>
 			</section>
 
-			{{#projects}}
-				<section class="homeImage">
-					<div class="caption">
-						<h3>{{title}}</h3>
-						{{#subcaption}}
-							<p><em>{{{caption}}}</em></p>
-							<p>{{{subcaption}}}</p>
-						{{/subcaption}}
-						{{^subcaption}}
-							<p>{{{caption}}}</p>
-						{{/subcaption}}
-					</div>
-					<a href="{{link}}">
-						<img src="{{image}}">
-					</a>
-				</section>
-			{{/projects}}
-			{{^projects}}
-				<b>No Projects. Get busy!</b>
-			{{/projects}}
+		{{#projects}}
+			<section class="homeImage">
+				<div class="caption">
+					<h3>{{title}}</h3>
+					{{#subcaption}}
+						<p><em>{{{caption}}}</em></p>
+						<p>{{{subcaption}}}</p>
+					{{/subcaption}}
+					{{^subcaption}}
+						<p>{{{caption}}}</p>
+					{{/subcaption}}
+				</div>
+				<a href="{{link}}">
+					<img src="{{image}}">
+				</a>
+			</section>
+		{{/projects}}
+		{{^projects}}
+			<b>No Projects. Get busy!</b>
+		{{/projects}}
 
 {{! commented out	
 			<!-- <section class="homeImage">
@@ -79,66 +79,20 @@
 		</div>
 
 
-		<!-- <p>Welcome to {{ title }}</p>
 
-		Hello {{what}}!
-
-		<h4>Test array of objects</h4>
-		<dl rel="test-list">
-			{{#list}}
-			<dt>{{title}}:</dt>
-			<dd>{{data}}</dd>
-			{{/list}}
-		</dl>
-
-		<h4>Test Lambdas (should reverse &quot;{{what}}&quot;)</h4>
-		<div rel="test-reverse-lambda">
-		{{#lambdas.reverseString}}{{what}}{{/lambdas.reverseString}}
-		</div>
-
-		<h4>Test Lambdas within array context</h4>
-		<table rel="test-reverse-lambda-with-context">
-		{{#list}}
-		<tr>
-		<th>{{#lambdas.reverseString}}{{title}}{{/lambdas.reverseString}}</th>
-		<td>{{#lambdas.reverseString}}{{data}}{{/lambdas.reverseString}}</td>
-		</tr>
-		{{/list}}
-		</table>
-
-		<h5>This second lambda is here to test that you can have more than one type of lambda</h5>
-		<div rel="test-uppercase-lambda">
-		{{#lambdas.uppercase}}world{{/lambdas.uppercase}}
-		</div>
-
-		<h5>You can even nest your lambdas!</h5>
-		<div rel="test-nested-lambdas">
-		{{#lambdas.reverseString}}{{#lambdas.uppercase}}{{what}}{{/lambdas.uppercase}}{{/lambdas.reverseString}}
-		</div>
-
-		<p>-----[ > temp ]-----</p>
-
-		{{> temp}}
-
-		{{#yield-footer}}
-		<p>I'm a footer, defined in index.html</p>
-		{{/yield-footer}}
-
- -->
+		{{> footer}}
 
 
 
 
-
+{{!
 		<footer>
 			<a href="http://static.joby.com/temp/IMPORTANT.html">
 				&hearts; 2014
 			</a>
 		</footer>
-
-
+}}
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 		<script>
 			WebFontConfig = {
 				google: {
@@ -158,7 +112,6 @@
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(wf, s);
 			})();
-
 			{{! Google Analytics }}
 			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
