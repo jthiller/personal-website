@@ -45,8 +45,26 @@ exports.index = function(req, res){
 exports.about = function(req, res){
 	res.render('index',
 		{
-			pagetitle: 'About' ,
-			title: "About<br>Joey Hiller"
+			"pagetitle": "About" ,
+			"title": "About<br>Joey Hiller",
+			"aboutcontent": [
+				{
+					"sectiontitle": "Who's this guy?",
+					"content": "To fit me into a cliche, I'm the country kid who's working his ass off to make it in the big city.<br>More words..."
+				},
+				{
+					"image": "http://placekitten.com/g/900/500",
+					"imagealt": "Me a long time ago.",
+					"link": ""
+				},
+				{
+					"sectiontitle": "My story",
+					"content": "Even more words."
+				},
+				{
+					"content": "The technical details of this site."
+				}
+			]
 		}
 	);
 };

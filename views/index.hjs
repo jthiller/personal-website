@@ -23,7 +23,7 @@
 			<div class="menuButton"></div>
 			{{! <nav></nav> convert this to nav later }}
 			<ul>
-				<li class="active"><a href="">Home</a></li>
+				<li class="active"><a href="/">Home</a></li>
 				<li><a href="/about/">About</a></li>
 				<li><a href="">Blog</a></li>
 			</ul>
@@ -51,30 +51,23 @@
 				</a>
 			</section>
 		{{/projects}}
-		{{^projects}}
-			<b>No Projects. Get busy!</b>
-		{{/projects}}
 
-{{! commented out	
-			<!-- <section class="homeImage">
-				<div class="caption">
-					<h3>New Portfolio</h3>
-					<p>A new website for a new year.</p>
-				</div>
-				<a href="/portfolio/">
-					<img src="http://placekitten.com/900/500">
-				</a>
-			</section>
-			 <section class="homeImage">
-				<div class="caption">
-					<h3>LetsGo.io</h3>
-					<p><em>Creating trips around great photos.</em></p>
-					<p>1st Place hackathon project.<br>Photo Hack Day 4</p>
-				</div>
-				<a href="letsgoio">
-					<img src="http://placekitten.com/g/900/500">
-				</a>
-			</section> --> }}
+		{{#aboutcontent}}
+			{{#image}}
+				<section class="singleImage">
+					<img src="{{image}}" alt="{{imagealt}}">
+				</section>
+			{{/image}}
+			{{^image}}
+				<section class="textBlock">
+					{{#sectiontitle}}
+						<h2>{{sectiontitle}}</h2>
+					{{/sectiontitle}}
+					<p>{{{content}}}</p>
+				</section>
+			{{/image}}
+		{{/aboutcontent}}
+
 
 		</div>
 
