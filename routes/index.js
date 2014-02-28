@@ -6,6 +6,7 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{
+			"pagetitle": "Joey Hiller",
 			"title": "Joey <br>Hiller",
 			"name": "Letsgo.io",
 			"description": "Your standard form button.",
