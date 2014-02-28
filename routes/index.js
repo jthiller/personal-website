@@ -10,26 +10,19 @@ exports.index = function(req, res){
 			"title": "Joey <br>Hiller",
 			"name": "Letsgo.io",
 			"description": "Your standard form button.",
-			"state": [
+			"projects": [
 				{ 
-					"name": ":hover",
-					"escaped": "pseudo-class-hover",
-					"description": "Highlights when hovering."
+					"title": "New Portfolio",
+					"caption": "A new website for a new year",
+					"image": "http://placekitten.com/900/500",
+					"link": "/portfolio/"
 				},
-				{
-					"name": ":disabled",
-					"escaped": "pseudo-class-disabled",
-					"description": "Dims the button when disabled."
-				},
-				{
-					"name": ".primary",
-					"escaped": "primary",
-					"description": "Indicates button is the primary action."
-				},
-				{
-					"name": ".smaller",
-					"escaped": "smaller",
-					"description": "A smaller button"
+				{ 
+					"title": "New Portfolio",
+					"caption": "A new website for a new year",
+					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+					"image": "http://placekitten.com/900/500",
+					"link": "/portfolio/"
 				}
 			],
 			"markup": {

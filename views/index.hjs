@@ -35,7 +35,12 @@
 				<h1 class="title">{{{title}}}</h1>
 			</section>
 
-
+			{{#projects}}
+				{{> project}}
+			{{/projects}}
+			{{^projects}}
+				<b>No Projects. Get busy!</b>
+			{{/projects}}
 			<section class="homeImage">
 				<div class="caption">
 					<h3>New Portfolio</h3>
