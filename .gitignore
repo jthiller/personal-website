@@ -64,3 +64,4 @@ Planning/
 # Sublime #
 ###########
 *.sublime-project
+*.sublime-workspace
