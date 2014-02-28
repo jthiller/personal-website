@@ -36,12 +36,28 @@
 			</section>
 
 			{{#projects}}
-				{{> project}}
+				<section class="homeImage">
+					<div class="caption">
+						<h3>{{title}}</h3>
+						{{#subcaption}}
+							<p><em>{{{caption}}}</em></p>
+							<p>{{{subcaption}}}</p>
+						{{/subcaption}}
+						{{^subcaption}}
+							<p>{{{caption}}}</p>
+						{{/subcaption}}
+					</div>
+					<a href="{{link}}">
+						<img src="{{image}}">
+					</a>
+				</section>
 			{{/projects}}
 			{{^projects}}
 				<b>No Projects. Get busy!</b>
 			{{/projects}}
-			<section class="homeImage">
+
+{{! commented out	
+			<!-- <section class="homeImage">
 				<div class="caption">
 					<h3>New Portfolio</h3>
 					<p>A new website for a new year.</p>
@@ -59,7 +75,7 @@
 				<a href="letsgoio">
 					<img src="http://placekitten.com/g/900/500">
 				</a>
-			</section>
+			</section> --> }}
 
 		</div>
 

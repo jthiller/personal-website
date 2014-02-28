@@ -18,11 +18,18 @@ exports.index = function(req, res){
 					"link": "/portfolio/"
 				},
 				{ 
-					"title": "New Portfolio",
-					"caption": "A new website for a new year",
+					"title": "LetsGo.io",
+					"caption": "Creating trips around great photos.",
 					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+					"image": "http://placekitten.com/g/900/500",
+					"link": "/letsgoio/"
+				},
+				{ 
+					"title": "AcmeMade",
+					"caption": "Creating trips around great photos.",
+					"subcaption": "Complete eCommerce on Magento core.",
 					"image": "http://placekitten.com/900/500",
-					"link": "/portfolio/"
+					"link": "/acmemade/"
 				}
 			],
 			"markup": {
