@@ -3,6 +3,7 @@ exports.portfolio = function(req, res){
 		{
 			"pagetitle": "New Portfolio",
 			"title": "Portfolio<br>Redesign",
+			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				// {
 				// 	"headline": "Creating trips around great photos."
@@ -33,6 +34,7 @@ exports.letsgoio = function(req, res){
 		{
 			"pagetitle": "LetsGo.io",
 			"title": "LetsGo.io",
+			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				// {
 				// 	"headline": "Creating trips around great photos."

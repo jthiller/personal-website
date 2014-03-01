@@ -30,7 +30,7 @@
 		</header>
 
 		<div class="mainContainer">
-			<section class="masthead">
+			<section class="masthead"{{#backgroundgraphic}} style="background: url({{backgroundgraphic}}) center center no-repeat;"{{/backgroundgraphic}}>
 				<h1 class="title">{{{title}}}</h1>
 			</section>
 
