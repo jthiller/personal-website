@@ -453,6 +453,9 @@ footer a:hover {
     margin-bottom: 1rem;
     height: 6rem;
   }
+  section.homeImage .caption {
+    border: none;
+  }
   section.homeImage img {
     padding-left: 2.5%;
   }
