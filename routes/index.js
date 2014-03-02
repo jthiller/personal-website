@@ -6,7 +6,7 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{
-			"pagetitle": "Home",
+			// "pagetitle": "Home",
 			"title": "Joey <br>Hiller",
 			"backgroundgraphic": "/images/header_index.svg",
 			"projects": [
@@ -48,7 +48,7 @@ exports.about = function(req, res){
 		{
 			"pagetitle": "About" ,
 			"title": "About<br>Joey Hiller",
-			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			"backgroundgraphic": "/images/header_index.svg",
 			"aboutcontent": [
 				{
 					"sectiontitle": "Who's this guy?",
