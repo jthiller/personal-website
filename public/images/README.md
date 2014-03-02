@@ -1,0 +1,1 @@
+Color for background images: #E9E9E9
