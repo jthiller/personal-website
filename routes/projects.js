@@ -9,16 +9,16 @@ exports.portfolio = function(req, res){
 				// 	"headline": "Creating trips around great photos."
 				// },
 				{
-					"sectiontitle": "Who's this guy?",
-					"content": "To fit me into a cliche, I'm the country kid who's working his ass off to make it in the big city.<br>More words..."
+					"sectiontitle": "Redesign 2014",
+					"content": "In building my new portfolio..."
 				},
 				{
 					"image": "http://placekitten.com/g/900/500",
-					"imagealt": "Me a long time ago.",
+					"imagealt": "words",
 					"link": ""
 				},
 				{
-					"sectiontitle": "My story",
+					"sectiontitle": "Ch. 2",
 					"content": "Even more words."
 				},
 				{
