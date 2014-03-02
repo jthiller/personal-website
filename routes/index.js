@@ -65,6 +65,10 @@ exports.about = function(req, res){
 				{
 					"sectiontitle": "Site Details",
 					"content": "When I approach a redesign of my own portfolio, I take it as an opportunity to learn as many new topics as possible as well as create something that feels ‘new’ to the internet. This time around, I took the opportunity to explore Node.js. I’ve had limited experience with Node on a second-hand basis in the past; both of the winning hackathon projects I worked on operated via a Node backend."
+				},
+				{
+					"sectiontitle": "Contact",
+					"content": "Email, phone, twitter, facebook, codepen, etc"
 				}
 			]
 		}
