@@ -24,9 +24,9 @@ borderAnimTime = .35s
 // Define the cache and the aliases
 $media_cache = {}
 $media_aliases = {
-	phones: 	'(max-width: 20em)'
-	tablet: 	'(min-width: 48em)'
 	bigscreen:	'(min-width: 75em)'
+	tablet: 	'(max-width: 48em)'
+	phones: 	'(max-width: 20em)'
 }
 
 // Mixin for caching breakpoint styles
@@ -232,21 +232,21 @@ header
 
 section.masthead
 	height: 50em
-	margin-bottom: -20em
+	// margin-bottom: -20em
 	margin-bottom: -15em
 	// background: url(/images/JAPAN_Simplified.svg) center center no-repeat
-	background-size: 40em
+	background-size: 40em !important
 	transition: all 1s ease
 	position: relative
 	z-index: -1
 	+media('tablet')
 		height: 40em
 		margin-bottom: -16em
-		background-size: 35em
+		background-size: 35em !important
 	+media('phones')
 		height: 30em
 		margin-bottom: -12em
-		background-size: 25em
+		background-size: 25em !important
 	.title
 		position: absolute
 		bottom: 60%

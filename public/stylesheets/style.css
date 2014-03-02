@@ -305,11 +305,10 @@ header li.active a:hover {
 }
 section.masthead {
   height: 50em;
-  margin-bottom: -20em;
   margin-bottom: -15em;
-  -webkit-background-size: 40em;
-  -moz-background-size: 40em;
-  background-size: 40em;
+  -webkit-background-size: 40em !important;
+  -moz-background-size: 40em !important;
+  background-size: 40em !important;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -414,12 +413,12 @@ footer a {
 footer a:hover {
   color: #aaa;
 }
-@media only screen and (min-width: 48em) {
+@media only screen and (max-width: 48em) {
   section.masthead {
     height: 40em;
     margin-bottom: -16em;
-    -webkit-background-size: 35em;
-    -moz-background-size: 35em;
+    -webkit-background-size: 35em !important;
+    -moz-background-size: 35em !important;
   }
   section.masthead .title {
     font-size: 4.5em;
@@ -443,8 +442,8 @@ footer a:hover {
   section.masthead {
     height: 30em;
     margin-bottom: -12em;
-    -webkit-background-size: 25em;
-    -moz-background-size: 25em;
+    -webkit-background-size: 25em !important;
+    -moz-background-size: 25em !important;
   }
   section.masthead .title {
     font-size: 2em;

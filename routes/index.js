@@ -8,7 +8,7 @@ exports.index = function(req, res){
 		{
 			"pagetitle": "Home",
 			"title": "Joey <br>Hiller",
-			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			"backgroundgraphic": "/images/placeholder.svg",
 			"projects": [
 				{ 
 					"title": "New Portfolio",
