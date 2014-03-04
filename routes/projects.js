@@ -64,6 +64,20 @@ exports.acmemade = function(req, res){
 	res.render('index', 
 		{
 			"pagetitle": "AcmeMade",
+			"title": "AcmeMade",
+			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			"projectcontent": [
+				{
+					// "sectiontitle": "Redesign 2014",
+					"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer.",
+				},
+				{
+					"content": "I met with the product designers to gather a sense of the intention of the brand.",
+				},
+				{
+					"image": "/images/project/acmemade/projectImage.jpg"
+				}
+			]
 		}
 	);
 };
