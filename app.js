@@ -51,6 +51,7 @@ if ('development' == app.get('env')) {
 // Core pages
 app.get('/', routes.index);
 app.get('/about', routes.about);
+app.get('/blog', routes.blog);
 // app.get('/users', user.list);
 
 // Project pages

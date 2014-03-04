@@ -74,3 +74,21 @@ exports.about = function(req, res){
 		}
 	);
 };
+
+
+
+
+exports.blog = function(req, res){
+	res.render('index',
+		{
+			"pagetitle": "Blog" ,
+			"title": "Blog",
+			"backgroundgraphic": "/images/header_japan.svg",
+			"aboutcontent": [
+				{
+					"sectiontitle": "Blog coming soon.",
+				}
+			]
+		}
+	);
+};
