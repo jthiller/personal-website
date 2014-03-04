@@ -27,7 +27,7 @@ exports.index = function(req, res){
 					"title": "AcmeMade",
 					"caption": "Products that speak style.",
 					"subcaption": "Complete eCommerce on Magento core.",
-					"image": "http://placekitten.com/900/500",
+					"image": "/images/project/acmemade/projectImage.jpg",
 					"link": "/acmemade/"
 				}
 			],
