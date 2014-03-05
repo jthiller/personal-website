@@ -13,15 +13,8 @@ exports.index = function(req, res){
 				{ 
 					"title": "New Portfolio",
 					"caption": "A new website for a new year",
-					"image": "http://placekitten.com/900/500",
+					"image": "/images/project/portfolio/projectImage.jpg",
 					"link": "/portfolio/"
-				},
-				{ 
-					"title": "LetsGo.io",
-					"caption": "Creating trips around great photos.",
-					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
-					"image": "http://placekitten.com/g/900/500",
-					"link": "/letsgoio/"
 				},
 				{ 
 					"title": "AcmeMade",
@@ -29,6 +22,13 @@ exports.index = function(req, res){
 					"subcaption": "Complete eCommerce on Magento core.",
 					"image": "/images/project/acmemade/projectImage.jpg",
 					"link": "/acmemade/"
+				},
+				{ 
+					"title": "LetsGo.io",
+					"caption": "Creating trips around great photos.",
+					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+					"image": "http://placekitten.com/g/900/500",
+					"link": "/letsgoio/"
 				}
 			],
 			"markup": {

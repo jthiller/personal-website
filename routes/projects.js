@@ -3,7 +3,7 @@ exports.portfolio = function(req, res){
 		{
 			"pagetitle": "New Portfolio",
 			"title": "Portfolio<br>Redesign",
-			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				// {
 				// 	"headline": "Creating trips around great photos."
@@ -13,9 +13,13 @@ exports.portfolio = function(req, res){
 					"content": "In building my new portfolio..."
 				},
 				{
-					"image": "http://placekitten.com/g/900/500",
+					"image": "/images/project/portfolio/projectImage.jpg",
 					"imagealt": "words",
 					"link": ""
+				},
+				{
+					"image": "/images/project/portfolio/header_3d_900.jpg",
+					"imagealt": "Layered sketch of page header."
 				},
 				{
 					"sectiontitle": "Ch. 2",
@@ -34,7 +38,7 @@ exports.letsgoio = function(req, res){
 		{
 			"pagetitle": "LetsGo.io",
 			"title": "LetsGo.io",
-			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				// {
 				// 	"headline": "Creating trips around great photos."
@@ -65,7 +69,7 @@ exports.acmemade = function(req, res){
 		{
 			"pagetitle": "AcmeMade",
 			"title": "AcmeMade",
-			"backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				{
 					// "sectiontitle": "Redesign 2014",
