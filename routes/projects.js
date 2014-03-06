@@ -6,7 +6,7 @@ exports.acmemade = function(req, res){
 			"backgroundgraphic": "/images/header_acmemade.svg",
 			"projectcontent": [
 				{
-					// "sectiontitle": "Redesign 2014",
+					"sectiontitle": "At home with design: Acme Made & San Francisco",
 					"content": "One of the most picturesque cities in the world, San Francisco is an area packed with inspiration. Founded in 2002, AcmeMade flourishes in this 7x7 square mile city of innovation and culture. Understanding the city, the distinct look of its people and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
 				},
 				{

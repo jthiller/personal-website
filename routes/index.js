@@ -12,17 +12,17 @@ exports.index = function(req, res){
 			"backgroundgraphic": "/images/header_index.svg",
 			"projects": [
 				{ 
-					"title": "New Portfolio",
-					"caption": "A new website for a new year",
-					"image": "/images/project/portfolio/projectImage.jpg",
-					"link": "/portfolio/"
-				},
-				{ 
 					"title": "AcmeMade",
 					"caption": "Products that speak style.",
 					"subcaption": "Complete eCommerce on Magento core.",
 					"image": "/images/project/acmemade/projectImage.jpg",
 					"link": "/acmemade/"
+				},
+				{ 
+					"title": "New Portfolio",
+					"caption": "A new website for a new year",
+					"image": "/images/project/portfolio/projectImage.jpg",
+					"link": "/portfolio/"
 				},
 				{ 
 					"title": "LetsGo.io",
