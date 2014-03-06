@@ -1,3 +1,36 @@
+exports.acmemade = function(req, res){
+	res.render('index', 
+		{
+			"pagetitle": "AcmeMade",
+			"title": "AcmeMade",
+			"backgroundgraphic": "/images/header_acmemade.svg",
+			"projectcontent": [
+				{
+					// "sectiontitle": "Redesign 2014",
+					"content": "One of the most picturesque cities in the world, San Francisco is an area packed with inspiration. Founded in 2002, AcmeMade flourishes in this 7x7 square mile city of innovation and culture. Understanding the city, the distinct look of its people and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
+				},
+				{
+					"content": "AcmeMade’s design center in San Francisco is where these inspirations turn into great products - each designed to protect your gear and complement your personality and style. "
+				},
+				{
+					"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style."
+				},
+				{
+					"image": "/images/project/acmemade/projectImage.jpg",
+					"imagealt": "Early AcmeMade sketches."
+				},
+				{
+					"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to Luis Quehel (the brand’s primary designer) while I was an intern, so I had a decent familiarity with the brand’s core. Luis had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of Luis, AcmeMade saw that a camera bag wasn't solely about the gear but about fashion and the person wearing it."
+				},
+				{
+					"content": "&nbsp;"
+				}
+			]
+		}
+	);
+};
+
+
 exports.portfolio = function(req, res){
 	res.render('index', 
 		{
@@ -6,7 +39,6 @@ exports.portfolio = function(req, res){
 			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				{
-
 					"sectiontitle": "Redesign 2014",
 					"content": "In building my new portfolio..."
 				},
@@ -53,28 +85,6 @@ exports.letsgoio = function(req, res){
 				},
 				{
 					"content": "The technical details of this site."
-				}
-			]
-		}
-	);
-};
-
-exports.acmemade = function(req, res){
-	res.render('index', 
-		{
-			"pagetitle": "AcmeMade",
-			"title": "AcmeMade",
-			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
-			"projectcontent": [
-				{
-					// "sectiontitle": "Redesign 2014",
-					"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer.",
-				},
-				{
-					"content": "I met with the product designers to gather a sense of the intention of the brand.",
-				},
-				{
-					"image": "/images/project/acmemade/projectImage.jpg"
 				}
 			]
 		}

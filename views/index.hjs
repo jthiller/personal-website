@@ -19,7 +19,7 @@
 		<!--[if lt IE 10]>
 			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
-		<header class="menu" onmouseover="this.classList.toggle('active');" onmouseout="this.classList.toggle('active');">
+		<header class="menu" onclick="this.classList.toggle('active');">
 			<div class="menuButton"></div>
 			{{! <!-- <nav></nav> convert this to nav later --> }}
 			<ul>
@@ -36,8 +36,10 @@
 		</header>
 
 		<div class="mainContainer">
-			<section class="masthead"{{#backgroundgraphic}} style="background: url({{backgroundgraphic}}) 70% -20% no-repeat;"{{/backgroundgraphic}}>
-				<h1 class="title">{{{title}}}</h1>
+			<section class="masthead"{{#backgroundgraphic}} style='background: url({{backgroundgraphic}}) 70% -20% no-repeat;'{{/backgroundgraphic}}>
+				<div class="fitText">
+					<h1 class="title">{{{title}}}</h1>
+				</div>
 			</section>
 
 		{{#projects}}
@@ -77,6 +79,8 @@
 		{{/aboutcontent}}
 
 		{{#projectcontent}}
+
+
 			{{#iframeContent}}
 			{{/iframeContent}}
 
@@ -99,9 +103,6 @@
 		</div>
 
 
-{{!
-		{{> footer}}
-}}
 		<footer>
 			<a href="http://static.joby.com/temp/IMPORTANT.html">
 				&hearts; 2014
@@ -135,6 +136,7 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-24170077-1');ga('send','pageview');
 		</script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script>
 		<script src="/javascripts/main.js"></script>
 </body>
 </html>

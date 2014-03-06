@@ -58,7 +58,7 @@ body
 	margin: 0
 	background: #fff
 	color: blackColor
-	font: 16px/1.3 proximaFamily
+	font: 16px/1.5 proximaFamily
 
 .pageframe
 	position: absolute
@@ -260,12 +260,13 @@ section.masthead
 		font-size: 5em
 		font-family: Quicksand, sans-serif
 		line-height: 1em
-		transition: padding 1s, bottom 1s, font-size 1s, border 1s, line-height 1s
+		transition: padding 1s, bottom 1s, border 1s, line-height 1s, font-size .1s
 		transition-timing-function: ease
 		+media('tablet')
 			font-size: 4.5em
 			border-bottom: .5rem solid blackColor
 		+media('phones')
+			left: 5%
 			font-size: 2em
 			border-bottom: .25rem solid blackColor
 
@@ -312,13 +313,13 @@ section.homeImage
 
 
 section.singleImage
-	margin-bottom: 2.5rem
+	margin-bottom: 1.5rem
 	width: 100%
 	transition: margin 1s ease, height 1s ease
 	+media('tablet')
-		margin-bottom: 2rem
-	+media('phones')
 		margin-bottom: 1rem
+	+media('phones')
+		margin-bottom: .5rem
 	img
 		margin-left: 30%
 		width: 60%
@@ -326,13 +327,13 @@ section.singleImage
 			margin: 0 auto
 			width: 95%
 			padding-left: 2.5%
-	// &.scalable img
-	// 	transition: margin .25s ease, scale .25s ease
-	// 	+media('tablet')
-	// 		&.active
-	// 			margin-left: 5%;
-	// 			transform: scale(1.5);
-	// 			transform-origin: top left;
+	&.scalable img
+		transition: margin .25s ease, scale .25s ease
+		+media('tablet')
+			&.active
+				margin-left: 5%;
+				transform: scale(1.5);
+				transform-origin: top left;
 
 
 
@@ -353,8 +354,8 @@ section.textBlock
 		width: 60%
 		+media('phones')
 			margin: 0 auto
-			width: 95%
-			padding-left: 2.5%
+			width: 90%
+			margin-left: 5%
 
 
 
