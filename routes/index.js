@@ -6,7 +6,6 @@
 exports.index = function(req, res){
 	res.render('index', 
 		{
-			// "pagetitle": "Home",
 			"home": true,
 			"title": "Joey <br>Hiller",
 			"backgroundgraphic": "/images/header_index.svg",
@@ -28,7 +27,7 @@ exports.index = function(req, res){
 					"title": "LetsGo.io",
 					"caption": "Creating trips around great photos.",
 					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
-					"image": "http://placekitten.com/g/900/500",
+					"image": "/images/project/letsgoio/projectImage.jpg",
 					"link": "/letsgoio/"
 				}
 			],
