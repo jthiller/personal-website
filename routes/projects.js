@@ -18,7 +18,8 @@ exports.acmemade = function(req, res){
 				{
 					"image": "/images/project/acmemade/projectImage.jpg",
 					"imagealt": "Early AcmeMade sketches.",
-					"scalable": true
+					"scalable": true,
+					"caption": false
 				},
 				{
 					"sectiontitle": "Part One",
@@ -47,7 +48,7 @@ exports.portfolio = function(req, res){
 				{
 					"image": "/images/project/portfolio/projectImage.jpg",
 					"imagealt": "words",
-					"link": ""
+					// "link": ""
 				},
 				{
 					"image": "/images/project/portfolio/header_3d_900.jpg",
