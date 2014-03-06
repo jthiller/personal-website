@@ -9,7 +9,7 @@ Structure Notes
 * Express
 * ~~Moustache or Handlebars~~
   * Hogan.js ([Faster](http://jsperf.com/template-mustachejs-hogan/8), already in Express)
-* Stylus Stylesheets
+* Stylus Stylesheets + Nib for vendor prefixes
   * Allow for code reordering, media query bundling
 * AWS
   * Elastic Beanstalk, Route53, etc
