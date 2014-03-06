@@ -331,6 +331,12 @@ section.singleImage
 		cursor: -moz-zoom-in
 		cursor: -webkit-zoom-in
 		cursor: zoom-in
+		&:hover
+			animation-name: imageHover;
+			animation-duration: 0.5s;
+			animation-timing-function: ease;
+			animation-iteration-count: 1;
+			animation-direction: forwards;
 		&.active
 			margin-left: 5%
 			transform: scale(1.5)
@@ -339,13 +345,27 @@ section.singleImage
 			cursor: -moz-zoom-out
 			cursor: -webkit-zoom-out
 			cursor: zoom-out
+			&:hover
+				animation-name: none;
 			// &:after
 			// 	content: "Click to Close"
 			// 	color: #fff;
 			// 	display: block
 			// 	position: relative
 
-
+@keyframes imageHover
+	0% 
+		transform: scale(1)
+	10% 
+		transform: scale(.999)
+	30% 
+		transform: scale(1.005)
+	46% 
+		transform: scale(1)
+	50% 
+		transform: scale(.995)
+	100% 
+		transform: scale(1)
 
 
 section.textBlock
