@@ -83,8 +83,8 @@
 			{{/iframeContent}}
 
 			{{#image}}
-				<section class="singleImage">
-					<img src="{{image}}" alt="{{imagealt}}">
+				<section class="singleImage{{#scalable}} scalable{{/scalable}}">
+					<img src="{{image}}" alt="{{imagealt}}"{{#scalable}} onclick="this.classList.toggle('active');"{{/scalable}}>
 				</section>
 			{{/image}}
 			{{^image}}

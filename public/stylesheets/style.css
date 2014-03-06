@@ -387,11 +387,33 @@ section.singleImage img {
   width: 60%;
 }
 section.singleImage.scalable img {
-  -webkit-transition: margin 0.25s ease, scale 0.25s ease;
-  -moz-transition: margin 0.25s ease, scale 0.25s ease;
-  -o-transition: margin 0.25s ease, scale 0.25s ease;
-  -ms-transition: margin 0.25s ease, scale 0.25s ease;
-  transition: margin 0.25s ease, scale 0.25s ease;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+section.singleImage.scalable img.active {
+  margin-left: 5%;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transform-origin: 0% 5%;
+  -moz-transform-origin: 0% 5%;
+  -o-transform-origin: 0% 5%;
+  -ms-transform-origin: 0% 5%;
+  transform-origin: 0% 5%;
+  -webkit-box-shadow: 0 25px 50px rgba(20,20,20,0.2);
+  box-shadow: 0 25px 50px rgba(20,20,20,0.2);
+}
+section.singleImage.scalable img.active:after {
+  content: "Click to Close";
+  color: #fff;
+  display: block;
+  position: relative;
 }
 section.textBlock {
   margin-bottom: 1.5rem;
@@ -406,6 +428,7 @@ section.textBlock p,
 section.textBlock h2 {
   margin: 0 0 0.25em 30%;
   width: 60%;
+  font-weight: 400;
 }
 footer {
   position: fixed;
@@ -440,17 +463,6 @@ footer a:hover {
   }
   section.singleImage {
     margin-bottom: 1rem;
-  }
-  section.singleImage.scalable img.active {
-    margin-left: 5%;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -webkit-transform-origin: top left;
-    -moz-transform-origin: top left;
-    -o-transform-origin: top left;
-    -ms-transform-origin: top left;
   }
   section.textBlock {
     margin-bottom: 1rem;
