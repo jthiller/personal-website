@@ -22,8 +22,7 @@ exports.portfolio = function(req, res){
 					"imagealt": "Layered sketch of page header."
 				},
 				{
-					"sectiontitle": "Ch. 2",
-					"content": "Even more words."
+					"content": "<p data-height='300' data-theme-id='0' data-slug-hash='kraIu' data-default-tab='result' class='codepen'>See the Pen <a href='http://codepen.io/jthiller/pen/kraIu'>Animated ☰ to × Button</a> by Joey Hiller (<a href='http://codepen.io/jthiller'>@jthiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p><script async src='//codepen.io/assets/embed/ei.js'></script>"
 				},
 				{
 					"content": "The technical details of this site."
