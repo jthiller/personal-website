@@ -7,6 +7,7 @@ exports.index = function(req, res){
 	res.render('index', 
 		{
 			// "pagetitle": "Home",
+			"home": true,
 			"title": "Joey <br>Hiller",
 			"backgroundgraphic": "/images/header_index.svg",
 			"projects": [
@@ -46,6 +47,7 @@ exports.index = function(req, res){
 exports.about = function(req, res){
 	res.render('index',
 		{
+			"about": true,
 			"pagetitle": "About" ,
 			"title": "About<br>Joey Hiller",
 			"backgroundgraphic": "/images/header_index.svg",
@@ -81,6 +83,7 @@ exports.about = function(req, res){
 exports.blog = function(req, res){
 	res.render('index',
 		{
+			"blog": true,
 			"pagetitle": "Blog" ,
 			"title": "Blog",
 			"backgroundgraphic": "/images/header_japan.svg",
