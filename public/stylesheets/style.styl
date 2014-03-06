@@ -327,12 +327,18 @@ section.singleImage
 			padding-left: 2.5%
 	&.scalable img
 		transition: all .25s ease
-		cursor: pointer;
+		cursor: pointer
+		cursor: -moz-zoom-in
+		cursor: -webkit-zoom-in
+		cursor: zoom-in
 		&.active
 			margin-left: 5%
 			transform: scale(1.5)
 			transform-origin: 0% 5%
 			box-shadow: 0 25px 50px rgba(20,20,20,.2)
+			cursor: -moz-zoom-out
+			cursor: -webkit-zoom-out
+			cursor: zoom-out
 			// &:after
 			// 	content: "Click to Close"
 			// 	color: #fff;
