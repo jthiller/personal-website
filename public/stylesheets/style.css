@@ -423,6 +423,11 @@ section.singleImage.scalable img:hover {
   -o-animation-direction: forwards;
   -ms-animation-direction: forwards;
   animation-direction: forwards;
+  -webkit-animation-delay: 0.25s;
+  -moz-animation-delay: 0.25s;
+  -o-animation-delay: 0.25s;
+  -ms-animation-delay: 0.25s;
+  animation-delay: 0.25s;
 }
 section.singleImage.scalable img.active {
   margin-left: 5%;
