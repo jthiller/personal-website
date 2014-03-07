@@ -67,7 +67,7 @@
 			{{^image}}
 				<section class="textBlock">
 					{{#sectiontitle}}
-					<h2>{{sectiontitle}}</h2>
+					<h2>{{{sectiontitle}}}</h2>
 					{{/sectiontitle}}
 					{{#content}}
 					<p>{{{content}}}</p>
@@ -93,7 +93,7 @@
 			{{^image}}
 				<section class="textBlock">
 					{{#sectiontitle}}
-						<h2>{{sectiontitle}}</h2>
+						<h2>{{{sectiontitle}}}</h2>
 					{{/sectiontitle}}
 					<p>{{{content}}}</p>
 				</section>

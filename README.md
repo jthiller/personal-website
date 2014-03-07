@@ -2,6 +2,12 @@ JOEYHILLER.com
 ================
 
 This is the repo for the backend and frontend code of my personal website.
+Content Notes
+---------
+* Home Page
+** Straight into portfolio
+* About Page
+** 
 
 Structure Notes
 ---------

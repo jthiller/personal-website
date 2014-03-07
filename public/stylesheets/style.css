@@ -429,6 +429,9 @@ section.textBlock {
   -ms-transition: margin 1s ease, height 1s ease;
   transition: margin 1s ease, height 1s ease;
 }
+section.textBlock h2 {
+  line-height: 1em;
+}
 section.textBlock p,
 section.textBlock h2 {
   margin: 0 0 0.25em 30%;
