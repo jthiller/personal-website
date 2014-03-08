@@ -293,7 +293,7 @@ header li.active a {
   color: #919191;
 }
 header li.active a:hover {
-  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 .mainContainer {
   position: relative;
