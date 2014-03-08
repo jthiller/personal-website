@@ -1,5 +1,5 @@
 exports.acmemade = function(req, res){
-	res.render('index', 
+	res.render('index',
 		{
 			"pagetitle": "AcmeMade",
 			"title": "AcmeMade",
@@ -35,7 +35,7 @@ exports.acmemade = function(req, res){
 
 
 exports.portfolio = function(req, res){
-	res.render('index', 
+	res.render('index',
 		{
 			"pagetitle": "New Portfolio",
 			"title": "Portfolio<br>Redesign",
@@ -67,7 +67,7 @@ exports.portfolio = function(req, res){
 };
 
 exports.letsgoio = function(req, res){
-	res.render('index', 
+	res.render('index',
 		{
 			"pagetitle": "LetsGo.io",
 			"title": "LetsGo.io",

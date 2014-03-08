@@ -90,6 +90,7 @@
 					{{/caption}}
 				</section>
 			{{/image}}
+
 			{{^image}}
 				<section class="textBlock">
 					{{#sectiontitle}}
