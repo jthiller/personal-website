@@ -299,6 +299,9 @@ header li.active a:hover {
   position: relative;
   display: block;
 }
+section {
+  position: relative;
+}
 section.masthead {
   height: 50em;
   margin-bottom: -15em;
@@ -310,7 +313,6 @@ section.masthead {
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-  position: relative;
   z-index: -1;
 }
 section.masthead .title {
@@ -381,6 +383,7 @@ section.singleImage {
 section.singleImage img {
   margin-left: 30%;
   width: 60%;
+  position: relative;
 }
 section.singleImage.scalable img {
   -webkit-transition: all 0.25s ease;
@@ -415,6 +418,7 @@ section.singleImage.scalable img.active {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
+  z-index: 9001;
 }
 section.singleImage.caption img {
   margin-bottom: -0.5em;
@@ -425,7 +429,7 @@ section.singleImage p.caption {
   font-size: 0.75em;
   border-bottom: 1px solid #bbb;
   display: inline-block;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.25em;
   min-width: 30%;
   max-width: 60%;
   -webkit-box-sizing: border-box;

@@ -231,12 +231,14 @@ header
 	position: relative;
 	display: block;
 
+section
+	position: relative
+
 section.masthead
 	height: 50em
 	margin-bottom: -15em
 	background-size: 40em !important
 	transition: all 1s ease
-	position: relative
 	z-index: -1
 	+media('tablet')
 		height: 40em
@@ -322,6 +324,7 @@ section.singleImage
 	img
 		margin-left: 30%
 		width: 60%
+		position: relative
 		+media('phones')
 			margin: 0 auto
 			width: 95%
@@ -352,6 +355,7 @@ section.singleImage
 			cursor: -moz-zoom-out
 			cursor: -webkit-zoom-out
 			cursor: zoom-out
+			z-index: 9001
 			+media('phones')
 				transform: scale(1)
 				cursor: default
@@ -371,10 +375,9 @@ section.singleImage
 		margin: 0 0 0 30%
 		line-height: 1em
 		font-size: .75em
-		// border-left: 1px solid #bbb
 		border-bottom: 1px solid #bbb
 		display: inline-block
-		padding: .5em
+		padding: .5em 1em .25em
 		min-width: 30%
 		max-width: 60%
 		box-sizing: border-box

@@ -47,12 +47,9 @@ exports.portfolio = function(req, res){
 				},
 				{
 					"image": "/images/project/portfolio/projectImage.jpg",
-					"imagealt": "words",
-					// "link": ""
-				},
-				{
-					"image": "/images/project/portfolio/header_3d_900.jpg",
-					"imagealt": "Layered sketch of page header."
+					"imagealt": "A late sketch of the website's header.",
+					"scalable": true,
+					"caption": true
 				},
 				{
 					"image": "/images/project/portfolio/earlySketch.jpg",
