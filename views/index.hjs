@@ -102,7 +102,7 @@
 		{{/projectcontent}}
 
 
-		</div>
+		</div> {{! Ends Main Container }}
 
 
 		<footer>
