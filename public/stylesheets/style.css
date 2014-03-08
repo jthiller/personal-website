@@ -183,16 +183,11 @@ span {
 header {
   position: fixed;
   margin: 0.25em 0 0 0.25em;
-  height: 3.25em;
+  height: 2.65em;
   overflow: hidden;
   z-index: 150;
   top: 0;
   left: 0;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
   -o-transform-origin: top left;
@@ -202,8 +197,8 @@ header {
 header .menuButton {
   position: absolute;
   z-index: 10;
-  width: 3em;
-  height: 3em;
+  width: 2.4em;
+  height: 2.4em;
   border: 0.25em solid #222;
   border-top: none;
   border-left: none;
@@ -218,8 +213,8 @@ header .menuButton {
 header .menuButton:before,
 header .menuButton:after {
   position: absolute;
-  top: 1.35em;
-  left: 0.5em;
+  top: 1.08em;
+  left: 0.39999999999999997em;
   background-color: #222;
   content: "";
   -webkit-transition: 0.2s ease;
@@ -229,8 +224,8 @@ header .menuButton:after {
   transition: 0.2s ease;
 }
 header .menuButton:before {
-  width: 2em;
-  height: 0.25em;
+  width: 1.5999999999999999em;
+  height: 0.19999999999999998em;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -238,8 +233,8 @@ header .menuButton:before {
   transform: rotate(90deg);
 }
 header .menuButton:after {
-  width: 2em;
-  height: 0.25em;
+  width: 1.5999999999999999em;
+  height: 0.19999999999999998em;
 }
 header.active .menuButton:before {
   -webkit-transform: rotate(0);
@@ -250,14 +245,15 @@ header.active .menuButton:before {
 }
 header.menu ul {
   position: relative;
-  left: -22em;
+  left: -100%;
   z-index: 5;
   display: inline-block;
   float: left;
   margin-top: -0.25em;
   padding-top: 0;
-  width: 21em;
-  height: 3em;
+  width: 16em;
+  width: auto;
+  height: 2.4em;
   border: 0.25em solid #222;
   background-color: #fff;
   list-style: none;
@@ -277,8 +273,8 @@ header.menu.active ul {
 }
 header li {
   display: inline-block;
-  margin-top: 0.8em;
-  padding: 0 2em;
+  margin-top: 0.32em;
+  padding: 0 1.28em;
 }
 header li a {
   border-bottom: 1px solid #fff;
@@ -289,6 +285,7 @@ header li a {
   -o-transition: border-bottom 0.3s ease;
   -ms-transition: border-bottom 0.3s ease;
   transition: border-bottom 0.3s ease;
+  font-size: 0.8em;
 }
 header li a:hover {
   border-bottom: 1px solid #222;
@@ -297,7 +294,7 @@ header li.active a {
   color: #919191;
 }
 header li.active a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: none;
 }
 .mainContainer {
   position: relative;
@@ -505,6 +502,30 @@ footer a:hover {
     margin: 0 auto;
     width: 95%;
     padding-left: 2.5%;
+  }
+  section.singleImage.scalable img {
+    cursor: default;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+  }
+  section.singleImage.scalable img.active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    cursor: default;
+    -webkit-box-shadow: none;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    margin: 0 auto;
   }
   section.textBlock {
     margin-bottom: 0.5rem;
