@@ -43,7 +43,7 @@ exports.portfolio = function(req, res){
 			"projectcontent": [
 				{
 					"sectiontitle": "Redesign 2014",
-					"content": "In building my new portfolio..."
+					"content": "Whenever I approach a redesign of my portfolio, I like to turn it into a wishlist of things I'd like to learn or see. It has been over five years since I last did a redesign, and the web world had changed a lot since then."
 				},
 				{
 					"image": "/images/project/portfolio/projectImage.jpg",
@@ -53,6 +53,12 @@ exports.portfolio = function(req, res){
 				{
 					"image": "/images/project/portfolio/header_3d_900.jpg",
 					"imagealt": "Layered sketch of page header."
+				},
+				{
+					"image": "/images/project/portfolio/earlySketch.jpg",
+					"imagealt": "An early sketch of the site.<br>The initial design was inspired by a trip to Tokyo",
+					"scalable": true,
+					"caption": true
 				},
 				// {
 				// 	"type": "iframeContent",

@@ -357,7 +357,7 @@ section.singleImage
 				cursor: default
 				box-shadow: none
 				transform-origin: 50% 50%
-				margin: 0 auto 
+				margin-left: 0
 			// &:hover
 			// 	animation-name: none
 			// &:after
@@ -365,6 +365,23 @@ section.singleImage
 			// 	color: #fff;
 			// 	display: block
 			// 	position: relative
+	&.caption img
+		margin-bottom: -.5em
+	p.caption
+		margin: 0 0 0 30%
+		line-height: 1em
+		font-size: .75em
+		// border-left: 1px solid #bbb
+		border-bottom: 1px solid #bbb
+		display: inline-block
+		padding: .5em
+		min-width: 30%
+		max-width: 60%
+		box-sizing: border-box
+		+media('phones')
+			max-width: 90%;
+			margin-left: 2.5%;
+
 
 // @keyframes imageHover
 // 	0% 
@@ -389,8 +406,6 @@ section.textBlock
 		margin-bottom: 1rem
 	+media('phones')
 		margin-bottom: .5rem
-	h2
-		line-height: 1em
 	p, h2
 		margin: 0 0 0.25em 30%
 		width: 60%
@@ -399,6 +414,9 @@ section.textBlock
 			margin: 0 auto
 			width: 90%
 			margin-left: 5%
+	h2
+		margin: 0 0 0.5em 30%
+		line-height: 1em
 
 
 

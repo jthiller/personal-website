@@ -416,6 +416,22 @@ section.singleImage.scalable img.active {
   cursor: -webkit-zoom-out;
   cursor: zoom-out;
 }
+section.singleImage.caption img {
+  margin-bottom: -0.5em;
+}
+section.singleImage p.caption {
+  margin: 0 0 0 30%;
+  line-height: 1em;
+  font-size: 0.75em;
+  border-bottom: 1px solid #bbb;
+  display: inline-block;
+  padding: 0.5em;
+  min-width: 30%;
+  max-width: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 section.textBlock {
   margin-bottom: 1.5rem;
   width: 100%;
@@ -425,14 +441,15 @@ section.textBlock {
   -ms-transition: margin 1s ease, height 1s ease;
   transition: margin 1s ease, height 1s ease;
 }
-section.textBlock h2 {
-  line-height: 1em;
-}
 section.textBlock p,
 section.textBlock h2 {
   margin: 0 0 0.25em 30%;
   width: 60%;
   font-weight: 400;
+}
+section.textBlock h2 {
+  margin: 0 0 0.5em 30%;
+  line-height: 1em;
 }
 footer {
   position: fixed;
@@ -524,7 +541,11 @@ footer a:hover {
     -moz-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
-    margin: 0 auto;
+    margin-left: 0;
+  }
+  section.singleImage p.caption {
+    max-width: 90%;
+    margin-left: 2.5%;
   }
   section.textBlock {
     margin-bottom: 0.5rem;
