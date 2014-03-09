@@ -60,8 +60,9 @@ exports.about = function(req, res){
 				},
 				{
 					"image": "http://placekitten.com/g/900/500",
-					"imagealt": "Me a long time ago.",
-					"link": ""
+					"imagealt": "I have a strong affinity for placekittens.",
+					"scalable": false,
+					"caption": true
 				},
 				{
 					"sectiontitle": "Site Details",
