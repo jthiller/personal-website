@@ -16,14 +16,20 @@ exports.acmemade = function(req, res){
 					"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style."
 				},
 				{
-					"image": "/images/project/acmemade/projectImage.jpg",
-					"imagealt": "Early AcmeMade sketches.",
+					"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
+					"imagealt": "The AcmeMade Skinny Sleeve",
 					"scalable": true,
-					"caption": false
+					"caption": true
 				},
 				{
 					"sectiontitle": "Part One",
 					"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to Luis Quehl (the brand’s primary designer) while I was an intern, so I had a decent familiarity with the brand’s core. Luis had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of Luis, AcmeMade saw that a camera bag wasn't solely about the gear but about fashion and the person wearing it."
+				},
+				{
+					"image": "/images/project/acmemade/projectImage.jpg",
+					"imagealt": "Late-stage AcmeMade sketches.",
+					"scalable": true,
+					"caption": true
 				},
 				{
 					"content": "&nbsp;"
@@ -49,7 +55,7 @@ exports.portfolio = function(req, res){
 					"image": "/images/project/portfolio/projectImage.jpg",
 					"imagealt": "A late sketch of the website's header.",
 					"scalable": true,
-					"caption": true
+					// "caption": true
 				},
 				{
 					"image": "/images/project/portfolio/earlySketch.jpg",
