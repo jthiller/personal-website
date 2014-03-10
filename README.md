@@ -18,8 +18,8 @@ This is the repo for the backend and frontend code of my personal website.
 * Node.js
 * Express
 * ~~Moustache or Handlebars~~
-  * Hogan.js ([Faster](http://jsperf.com/template-mustachejs-hogan/8), already in Express)
-    * (Documentation has been difficult)
+  * Hogan.js ([Faster](http://jsperf.com/template-mustachejs-hogan/8), already in Express as HJS)
+    * (Documentation has been difficult, HJS not well maintained)
 * Stylus Stylesheets + Nib for vendor prefixes
   * Allow for code reordering, media query bundling
 * AWS
