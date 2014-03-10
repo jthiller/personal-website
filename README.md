@@ -2,8 +2,7 @@ JOEYHILLER.com
 ================
 
 This is the repo for the backend and frontend code of my personal website.
-Content Notes
----------
+##Content Notes
 * Home Page
   * Straight into portfolio
 * About Page
@@ -15,8 +14,7 @@ Content Notes
 * Blog
   * Outlet for smaller projects.
 
-Structure Notes
----------
+## Structure Notes
 * Node.js
 * Express
 * ~~Moustache or Handlebars~~
@@ -28,6 +26,5 @@ Structure Notes
   * Elastic Beanstalk, Route53, etc
 
 
-Other
----------
+## Other
 Currently all of the content is being fed in via JSON files. In the future it would be nice to find a way to add the content in a simpler manner, such as with Markdown files.
