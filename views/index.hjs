@@ -83,6 +83,17 @@
 
 		{{#projectcontent}}
 
+			{{#fullImage}}
+				{{#imageSet}}
+				<section class="fullImage{{#caption}} caption{{/caption}}">
+					<img src="{{image}}" alt="{{imagealt}}">
+					{{#caption}}
+					<p class="caption">{{{imagealt}}}</p>
+					{{/caption}}
+				</section>
+				{{/imageSet}}
+			{{/fullImage}}
+
 			{{#singleImage}}
 				{{#imageSet}}
 				<section class="singleImage{{#scalable}} scalable{{/scalable}}{{#caption}} caption{{/caption}}">
