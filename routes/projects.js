@@ -16,20 +16,58 @@ exports.acmemade = function(req, res){
 					"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style."
 				},
 				{
-					"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
-					"imagealt": "The AcmeMade Skinny Sleeve",
+					"doubleImage": true,
 					"scalable": true,
-					"caption": true
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
+							"imagealt": "The AcmeMade Skinny Sleeve"
+						},
+						{
+							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
+							"imagealt": "The AcmeMade Skinny Book"
+						}
+					]
 				},
+				// {
+				// 	"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
+				// 	"imagealt": "The AcmeMade Skinny Sleeve",
+				// 	"scalable": true,
+				// 	"caption": true
+				// },
 				{
-					"sectiontitle": "Part One",
+					// "sectiontitle": "Part One",
 					"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to Luis Quehl (the brand’s primary designer) while I was an intern, so I had a decent familiarity with the brand’s core. Luis had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of Luis, AcmeMade saw that a camera bag wasn't solely about the gear but about fashion and the person wearing it."
 				},
 				{
-					"image": "/images/project/acmemade/projectImage.jpg",
-					"imagealt": "Late-stage AcmeMade sketches.",
-					"scalable": true,
-					"caption": true
+					"content": "I met with the brand managers and product designers to gather a sense of the intention of the brand. Andy, the primary brand manager, provided a powerpoint of ###. Luis, the lead designer, provided a mood board consisting of beautiful homes that represented his vision of the customer. We had conversations about the products, how they had been represented the past, and how lacking the existing e-commerce site was at telling the product's design story."
+				},
+				{
+					"singleImage": true,
+					"imageSet": [
+						{
+							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
+							"imagealt": "The AcmeMade Skinny Book",
+							"scalable": true,
+							"caption": true
+						}
+					]
+				},
+				{
+					"sectiontitle": "Let's make something new.",
+					"content": "With an idea of what the brand looked like, it was now time to formulate a structure for a completely redesigned website. <br>In e-commerce, there are many existing conventions that a user has come to expect when doing some online shipping. Add too much pollution to this process, and the shopping experience is impaired."
+				},
+				{
+					"singleImage": true,
+					"imageSet": [
+						{
+							"image": "/images/project/acmemade/projectSketches.jpg",
+							"imagealt": "Late-stage AcmeMade sketches.",
+							"scalable": true,
+							"caption": true
+						}
+					]
 				},
 				{
 					"content": "&nbsp;"

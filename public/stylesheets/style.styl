@@ -228,11 +228,12 @@ header
 				border-bottom: 1px solid transparent
 
 .mainContainer
-	position: relative;
-	display: block;
+	position: relative
+	display: block
 
 section
 	position: relative
+	clearfix()
 
 section.masthead
 	height: 50em
@@ -336,13 +337,6 @@ section.singleImage
 		cursor: -moz-zoom-in
 		cursor: -webkit-zoom-in
 		cursor: zoom-in
-		// &:hover
-		// 	animation-name: imageHover
-		// 	animation-duration: 0.5s
-		// 	animation-timing-function: ease
-		// 	animation-iteration-count: 1
-		// 	animation-direction: forwards
-		// 	animation-delay: .25s
 		+media('phones')
 			cursor: default
 			transform: none
@@ -362,13 +356,6 @@ section.singleImage
 				box-shadow: none
 				transform-origin: 50% 50%
 				margin-left: 0
-			// &:hover
-			// 	animation-name: none
-			// &:after
-			// 	content: "Click to Close"
-			// 	color: #fff;
-			// 	display: block
-			// 	position: relative
 	&.caption img
 		margin-bottom: -.5em
 	p.caption
@@ -382,24 +369,85 @@ section.singleImage
 		max-width: 60%
 		box-sizing: border-box
 		+media('phones')
-			max-width: 90%;
-			margin-left: 2.5%;
+			max-width: 90%
+			margin-left: 2.5%
 
-
-// @keyframes imageHover
-// 	0% 
-// 		transform: scale(1)
-// 	10% 
-// 		transform: scale(.999)
-// 	30% 
-// 		transform: scale(1.005)
-// 	46% 
-// 		transform: scale(1)
-// 	50% 
-// 		transform: scale(.995)
-// 	100% 
-// 		transform: scale(1)
-
+section.doubleImage
+	// margin-bottom: 1.5rem
+	width: 100%
+	transition: margin 1s ease, height 1s ease
+	clear: both
+	+media('tablet')
+		margin-bottom: 1rem
+	+media('phones')
+		margin-bottom: .5rem
+	.doubleWrapper
+		width: 60%
+		margin-left: 30%
+		height: auto
+		position: static
+		display: block
+		.singleWrapper
+			width: 49%
+			height: 100%
+			display: inline-block
+			vertical-align: top
+			position: static
+			&:nth-child(2n+2):not(.active)
+				float: right
+			img
+				width: 100%
+				position: relative
+				+media('phones')
+					margin: 0 auto
+					width: 95%
+					padding-left: 2.5%
+			p.caption
+				line-height: 1em
+				font-size: 0.75em
+				border-bottom: 1px solid #bbb
+				display: inline-block
+				padding: 0.5em 1em 0.25em
+				min-width: 30%
+				max-width: 90%
+				box-sizing: border-box
+				position: relative
+				bottom: 0
+				+media('phones')
+					max-width: 90%
+					margin-left: 2.5%
+	&.scalable img
+		transition: all .25s ease
+		transform: translateZ(0)
+		cursor: pointer
+		cursor: -moz-zoom-in
+		cursor: -webkit-zoom-in
+		cursor: zoom-in
+		+media('phones')
+			cursor: default
+			transform: none
+			transition: none
+		&:hover, &:active 
+			z-index: 9000 //hack to keep them from flashing
+		&.active
+			position: absolute
+			left: 0
+			margin-left: 5%
+			transform: scale(.9)
+			transform-origin: 0 0
+			box-shadow: 0 25px 50px rgba(20,20,20,.2)
+			cursor: -moz-zoom-out
+			cursor: -webkit-zoom-out
+			cursor: zoom-out
+			z-index: 9001
+			+media('phones')
+				transform: scale(1)
+				cursor: default
+				box-shadow: none
+				transform-origin: 50% 50%
+				margin-left: 0
+			&.caption img
+				margin-bottom: -.5em
 
 section.textBlock
 	margin-bottom: 1.5rem

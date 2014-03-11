@@ -67,6 +67,7 @@
 					{{/caption}}
 				</section>
 			{{/image}}
+
 			{{^image}}
 				<section class="textBlock">
 					{{#sectiontitle}}
@@ -79,20 +80,35 @@
 			{{/image}}
 		{{/aboutcontent}}
 
+
 		{{#projectcontent}}
 
-
-			{{#iframeContent}}
-			{{/iframeContent}}
-
-			{{#image}}
+			{{#singleImage}}
+				{{#imageSet}}
 				<section class="singleImage{{#scalable}} scalable{{/scalable}}{{#caption}} caption{{/caption}}">
 					<img src="{{image}}" alt="{{imagealt}}"{{#scalable}} onclick="this.classList.toggle('active');"{{/scalable}}>
 					{{#caption}}
 					<p class="caption">{{{imagealt}}}</p>
 					{{/caption}}
 				</section>
-			{{/image}}
+				{{/imageSet}}
+			{{/singleImage}}
+
+
+			{{#doubleImage}}
+				<section class="doubleImage{{#scalable}} scalable{{/scalable}}{{#caption}} caption{{/caption}}">
+					<div class="doubleWrapper">
+						{{#imageSet}}
+						<div class="singleWrapper">
+							<img src="{{image}}" alt="{{imagealt}}"{{#scalable}} onclick="this.classList.toggle('active');"{{/scalable}}>
+							{{#caption}}
+							<p class="caption">{{{imagealt}}}</p>
+							{{/caption}}
+						</div>
+						{{/imageSet}}
+					</div>
+				</section>
+			{{/doubleImage}}
 
 			{{^image}}
 				<section class="textBlock">
