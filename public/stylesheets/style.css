@@ -165,6 +165,13 @@ span {
   -ms-filter: none;
   filter: none;
 }
+p > a {
+  color: #555;
+  ransition: color 0.2s ease;
+}
+p > a:hover {
+  color: #888;
+}
 .browsehappy {
   margin: 0 0 0.2em;
   background: #d52626;
@@ -301,15 +308,6 @@ header li.active a:hover {
 }
 section {
   position: relative;
-  zoom: 1;
-}
-section:before,
-section:after {
-  content: "";
-  display: table;
-}
-section:after {
-  clear: both;
 }
 section.masthead {
   height: 50em;

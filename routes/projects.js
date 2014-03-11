@@ -70,8 +70,25 @@ exports.acmemade = function(req, res){
 					]
 				},
 				{
-					"content": "&nbsp;"
-				}
+					"content": "The first logical step in designing the site was to develop some sort of hierarchy for the brand's products, both present and future. I worked with the brand lead to define a simple category system that helped to draw focus to the products offered. The existing system had become fragmented, and this was an opportunity for us to work together to clarify the portfolio."
+				},
+				{
+					"content": "In defining the product selling points, it was concluded that clean product photography was the best carrier of the product message for our use case. Product lifestyle had been a difficult resource for the company at the time, so focus on studio photography was preferred. The emphasis of studio photography also worked well into the constraints of the chosen product CMS. Given that the pages for each product would be automatically generated, the room for customization around images was eliminated."
+				},
+				{
+					"sectiontitle": "Design",
+					"content": "With the information architecture mostly defined, it was time to move onto some wireframes and mockups. The design sprint was super quick at just over a week from the time of wireframing to code. The wireframing process allowed me to quickly work through many layouts and figure out the proper organization for the page. Discussions with the team were frequent througout this stage as we built out the pages in our head."
+				},
+				{
+					"content": "From the wireframes, some quick experimenting with visual styles led into full-scale mockups."
+				},
+				{
+					"content": "Once the rough idea was figured out, I took to Fireworks (RIP!) to begin mocking up the website. Typically at this point I'd move straight into code, but with the scale of this project, it was important to get the sign-off of the CMO, Creative Director, and Brand Manager before diving into the Magento themeing process."
+				},
+				{
+					"sectiontitle": "Development",
+					"content": "Coding on the <a href='http://magento.com'>Magento</a> e-commerce platform was a unique learning curve. A fresh install of Magento has over 24,000 separate template, logic, and routing files; all working together to generate an extremely complex and capable website."
+				},
 			]
 		}
 	);
