@@ -18,7 +18,7 @@ exports.acmemade = function(req, res){
 				{
 					"doubleImage": true,
 					"scalable": true,
-					"caption": true,
+					"caption": false,
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
