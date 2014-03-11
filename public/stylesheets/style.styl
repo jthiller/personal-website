@@ -373,20 +373,19 @@ section.singleImage
 			margin-left: 2.5%
 
 section.doubleImage
-	// margin-bottom: 1.5rem
+	margin-bottom: 0
 	width: 100%
 	transition: margin 1s ease, height 1s ease
 	clear: both
-	+media('tablet')
-		margin-bottom: 1rem
-	+media('phones')
-		margin-bottom: .5rem
 	.doubleWrapper
 		width: 60%
 		margin-left: 30%
 		height: auto
 		position: static
 		display: block
+		+media('phones')
+			width: 90%
+			margin-left: 5%
 		.singleWrapper
 			width: 49%
 			height: 100%

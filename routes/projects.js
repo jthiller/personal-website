@@ -90,16 +90,26 @@ exports.portfolio = function(req, res){
 					"content": "Whenever I approach a redesign of my portfolio, I like to turn it into a wishlist of things I'd like to learn or see. It has been over five years since I last did a redesign, and the web world had changed a lot since then."
 				},
 				{
-					"image": "/images/project/portfolio/projectImage.jpg",
-					"imagealt": "A late sketch of the website's header.",
-					"scalable": true,
-					// "caption": true
+					"singleImage": true,
+					"imageSet": [
+						{
+							"image": "/images/project/portfolio/projectImage.jpg",
+							"imagealt": "A late sketch of the website's header.",
+							"scalable": true,
+							// "caption": true
+						}
+					]
 				},
 				{
-					"image": "/images/project/portfolio/earlySketch.jpg",
-					"imagealt": "An early sketch of the site.<br>The initial design was inspired by a trip to Tokyo",
-					"scalable": true,
-					"caption": true
+					"singleImage": true,
+					"imageSet": [
+						{
+							"image": "/images/project/portfolio/earlySketch.jpg",
+							"imagealt": "An early sketch of the site.<br>The initial design was inspired by a trip to Tokyo",
+							"scalable": true,
+							"caption": true
+						}
+					]
 				},
 				// {
 				// 	"type": "iframeContent",
@@ -125,9 +135,13 @@ exports.letsgoio = function(req, res){
 					"content": "In June 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better.</em>&#8221;"
 				},
 				{
-					"image": "http://placekitten.com/g/900/500",
-					"imagealt": "Me a long time ago.",
-					"link": ""
+					"singleImage": true,
+					"imageSet": [
+						{
+							"image": "http://placekitten.com/g/900/500",
+							"imagealt": "Me a long time ago.",
+						}
+					]
 				},
 				{
 					"sectiontitle": "My Story",

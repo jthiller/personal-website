@@ -446,6 +446,7 @@ section.singleImage p.caption {
   box-sizing: border-box;
 }
 section.doubleImage {
+  margin-bottom: 0;
   width: 100%;
   -webkit-transition: margin 1s ease, height 1s ease;
   -moz-transition: margin 1s ease, height 1s ease;
@@ -505,7 +506,8 @@ section.doubleImage.scalable img {
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
-section.doubleImage.scalable img:hover {
+section.doubleImage.scalable img:hover,
+section.doubleImage.scalable img:active {
   z-index: 9000;
 }
 section.doubleImage.scalable img.active {
@@ -585,9 +587,6 @@ footer a:hover {
   section.singleImage {
     margin-bottom: 1rem;
   }
-  section.doubleImage {
-    margin-bottom: 1rem;
-  }
   section.textBlock {
     margin-bottom: 1rem;
   }
@@ -650,8 +649,9 @@ footer a:hover {
     max-width: 90%;
     margin-left: 2.5%;
   }
-  section.doubleImage {
-    margin-bottom: 0.5rem;
+  section.doubleImage .doubleWrapper {
+    width: 90%;
+    margin-left: 5%;
   }
   section.doubleImage .doubleWrapper .singleWrapper img {
     margin: 0 auto;
