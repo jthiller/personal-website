@@ -13,6 +13,7 @@ exports.acmemade = function(req, res){
 					"textBlocks": [
 						{
 							"sectiontitle": "At Home With Design: AcmeMade & San&nbsp;Francisco",
+							"content": "My job at JOBY connects me to AcmeMade, a sister brand. There are three brands connected to my company, and it is common that I do work across all three."
 						}
 					]
 				},

@@ -10,9 +10,9 @@
 
 ## At Home with Design: Acme Made & San&nbsp;Francisco
 
-> One of the most picturesque cities in the world, San Francisco is packed with inspiration. AcmeMade has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7 by 7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn.
+My job at JOBY connects me to AcmeMade, a sister brand.  There are three brands connected to my company, and it is common that I do work across all three.
 
-> AcmeMade’s design center in San Francisco is where  inspiration becomes product - each designed to --say something else about their products, or take this sentence out--.
+> One of the most picturesque cities in the world, San Francisco is packed with inspiration. AcmeMade has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7x7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn.
 
 > Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style.
 
@@ -32,7 +32,7 @@ In defining the product selling points, it was concluded that clean product phot
 The emphasis of studio photography also worked well into the constraints of the chosen product CMS. Given that the pages for each product would be automatically generated, the room for customization around images was eliminated.
 
 ###Design
-With the information architecture mostly defined, it was time to move onto some wireframes and mockups. The design sprint was super quick at just over a week from the time of wireframing to code. The wireframing process allowed me to quickly work through many layouts and figure out the proper organization for the page. Discussions with the team were frequent througout this stage as we built out the pages in our head.
+With the information architecture mostly defined, it was time to move onto some wireframes and mockups. The design sprint was super quick at just over a week from the time of wireframing to code. The wireframing process allowed me to quickly work through many layouts and figure out the proper organization for the page. Discussions with the team were frequent throughout this stage as we built out the pages in our head.
 
 From the wireframes, some quick experimenting with visual styles led into full-scale mockups.
 
