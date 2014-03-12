@@ -49,10 +49,10 @@ exports.acmemade = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to Luis Quehl (the brand’s primary designer) while I was an intern, so I had a decent familiarity with the brand’s core. Luis had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of Luis, AcmeMade saw that a camera bag wasn't solely about the gear but about fashion and the person wearing it."
+							"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to the brand’s primary designer while I was an intern, so I had a decent familiarity with the brand’s core. In this case, the designer had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of his decisions, AcmeMade showed that a camera bag wasn't solely about the gear but about fashion and the creativity of the person wearing it."
 						},
 						{
-							"content": "I met with the brand managers and product designers to gather a sense of the intention of the brand. Andy, the primary brand manager, provided a powerpoint of ###. Luis, the lead designer, provided a mood board consisting of beautiful homes that represented his vision of the customer. We had conversations about the products, how they had been represented the past, and how lacking the existing e-commerce site was at telling the product's design story."
+							"content": "I met with the brand managers and product designers to gather a sense of the intention of the brand. The lead designer provided a mood board consisting of beautiful homes that represented his vision of the customer. We had conversations about the products, how they had been represented the past, and how lacking the existing e-commerce site was at telling the product's design story."
 						}
 					]
 				},
@@ -73,7 +73,7 @@ exports.acmemade = function(req, res){
 					"textBlocks": [
 						{
 							"sectiontitle": "Let's make something new.",
-							"content": "With an idea of what the brand looked like, it was now time to formulate a structure for a completely redesigned website. <br>In e-commerce, there are many existing conventions that a user has come to expect when doing some online shipping. Add too much pollution to this process, and the shopping experience is impaired."
+							"content": "With an idea of what the brand looked like, it was now time to formulate a structure for a completely redesigned website. <br>In e-commerce, there are many existing conventions that a user has come to expect when doing some online shopping. Add too much pollution to this process, and the shopping experience is impaired."
 						},
 					]
 				},
