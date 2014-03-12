@@ -39,10 +39,6 @@ exports.index = function(req, res){
 	);
 };
 
-// exports.footer = function(req, res){
-// 	res.render('footer', { 'content' });
-// };
-
 exports.about = function(req, res){
 	res.render('index',
 		{
@@ -70,7 +66,7 @@ exports.about = function(req, res){
 				},
 				{
 					"sectiontitle": "Contact",
-					"content": "Email, phone, twitter, facebook, codepen, etc"
+					"content": "Email, phone,<br> <a href='https://twitter.com/jhiller'>Twitter</a><br><a href='https://www.facebook.com/joeyhiller'>Facebook</a><br> <a href='http://codepen.io/jthiller/'>Codepen</a><br>"
 				}
 			]
 		}
