@@ -10,9 +10,9 @@
 
 ## At Home with Design: Acme Made & San&nbsp;Francisco
 
-> One of the most picturesque cities in the world, San Francisco is an area packed with inspiration. Founded in 2002, AcmeMade flourishes in this 7x7 square mile city of innovation and culture. Understanding the city, the distinct look of its people and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn.
+> One of the most picturesque cities in the world, San Francisco is packed with inspiration. AcmeMade has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7 by 7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn.
 
-> AcmeMade’s design center in San Francisco is where these inspirations turn into great products - each designed to protect your gear and complement your personality and style.
+> AcmeMade’s design center in San Francisco is where  inspiration becomes product - each designed to --say something else about their products, or take this sentence out--.
 
 > Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style.
 

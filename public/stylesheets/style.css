@@ -461,7 +461,7 @@ section.doubleImage .doubleWrapper {
   display: block;
 }
 section.doubleImage .doubleWrapper .singleWrapper {
-  width: 49%;
+  width: 48%;
   height: 100%;
   display: inline-block;
   vertical-align: top;
@@ -533,23 +533,30 @@ section.doubleImage.scalable img.active.caption img {
   margin-bottom: -0.5em;
 }
 section.textBlock {
-  margin-bottom: 1.5rem;
   width: 100%;
+}
+section.textBlock p,
+section.textBlock h2 {
   -webkit-transition: margin 1s ease, height 1s ease;
   -moz-transition: margin 1s ease, height 1s ease;
   -o-transition: margin 1s ease, height 1s ease;
   -ms-transition: margin 1s ease, height 1s ease;
   transition: margin 1s ease, height 1s ease;
-}
-section.textBlock p,
-section.textBlock h2 {
   margin: 0 0 0.25em 30%;
   width: 60%;
   font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 section.textBlock h2 {
   margin: 0 0 0.5em 30%;
   line-height: 1em;
+}
+section.textBlock.quote p {
+  font-style: italic;
+  color: #555;
+  font-weight: 300;
+  border-left: 0.2em solid #ddd;
+  padding-left: 0.5em;
 }
 footer {
   position: fixed;
@@ -585,7 +592,7 @@ footer a:hover {
   section.singleImage {
     margin-bottom: 1rem;
   }
-  section.textBlock {
+  section.textBlock p,section.textBlock h2 {
     margin-bottom: 1rem;
   }
 }
@@ -684,13 +691,10 @@ footer a:hover {
     -ms-transform-origin: 50% 50%;
     margin-left: 0;
   }
-  section.textBlock {
-    margin-bottom: 0.5rem;
-  }
   section.textBlock p,section.textBlock h2 {
     margin: 0 auto;
     width: 90%;
-    margin-left: 5%;
+    margin: 0 0 0.5rem 5%;
   }
   section.textBlock h2 {
     margin-bottom: 1rem;

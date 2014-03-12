@@ -121,6 +121,19 @@
 				</section>
 			{{/doubleImage}}
 
+			{{#textBlock}}
+				<section class="textBlock{{#quote}} quote{{/quote}}">
+				{{#textBlocks}}
+				{{#sectiontitle}}
+					<h2>{{{sectiontitle}}}</h2>
+				{{/sectiontitle}}			
+				{{#content}}
+					<p>{{{content}}}</p>
+				{{/content}}
+				{{/textBlocks}}
+				</section>		
+			{{/textBlock}}		
+
 			{{^image}}
 				<section class="textBlock">
 					{{#sectiontitle}}
