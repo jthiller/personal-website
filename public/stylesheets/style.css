@@ -468,7 +468,7 @@ section.doubleImage .doubleWrapper .singleWrapper {
   position: static;
 }
 section.doubleImage .doubleWrapper .singleWrapper:nth-child(2n+2):not(.active) {
-  float: right;
+  margin-left: 1%;
 }
 section.doubleImage .doubleWrapper .singleWrapper img {
   width: 100%;
@@ -691,6 +691,9 @@ footer a:hover {
     margin: 0 auto;
     width: 90%;
     margin-left: 5%;
+  }
+  section.textBlock h2 {
+    margin-bottom: 1rem;
   }
 }
 @-moz-keyframes mockload {
