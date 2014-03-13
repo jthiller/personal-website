@@ -58,7 +58,7 @@ app.get('/blog', routes.blog);
 app.get('/portfolio', projects.portfolio);
 app.get('/acmemade', projects.acmemade);
 app.get('/letsgoio', projects.letsgoio);
-// app.get('/gorillacam', projects.gorillacam);
+app.get('/gorillacam', projects.gorillacam);
 // app.get('/sizzly', projects.sizzly);
 
 // infopoints
