@@ -28,18 +28,18 @@ exports.acmemade = function(req, res){
 					]
 				},
 				{
-					"doubleImage": true,
+					"singleImage": true,
 					"scalable": true,
-					"caption": false,
+					"caption": true,
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
 							"imagealt": "The Acme Made Skinny Sleeve"
 						},
-						{
-							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
-							"imagealt": "The Acme Made Skinny Book"
-						}
+						// {
+						// 	"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
+						// 	"imagealt": "The Acme Made Skinny Book"
+						// }
 					]
 				},
 				{
