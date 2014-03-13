@@ -280,9 +280,9 @@ header.menu.active ul {
 header li {
   display: inline-block;
   margin-top: 0.32em;
-  padding: 0 1.28em;
 }
 header li a {
+  margin: 0 1.28em;
   border-bottom: 1px solid #fff;
   color: #222;
   text-decoration: none;

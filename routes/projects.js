@@ -215,17 +215,33 @@ exports.letsgoio = function(req, res){
 							// "sectiontitle": "Development",
 							"content": "In April 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better than that.</em>&#8220;"
 						},
+						{
+							// "sectiontitle": "Development",
+							"content": "Going into the hackathon, I had no project ideas. One friend that I made at a previous hackathon would also be there, so we decided to team up. Together, we found a couple of other folks who'd fit in to build a solid team. We threw ideas around for a while, but couldn't decide on anything concrete. It wasn't until six hours into our 24 hour hackathon that we landed on the idea for a service to help people find great and inspiring images across the globe. At that point, it was time to get busy. With 18 hours to go, we quickly discussed the app structure. Then I dove into the design of the app while the others built out the backend framework."
+						},
 					]
 				},
-				// {
-				// 	"singleImage": true,
-				// 	"imageSet": [
-				// 		{
-				// 			"image": "http://placekitten.com/g/900/500",
-				// 			"imagealt": "Me a long time ago.",
-				// 		}
-				// 	]
-				// },
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/letsgoio/HomeScreenshot.jpg",
+							"imagealt": "LetsGo.io Load Screen",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							// "sectiontitle": "Development",
+							"content": ""
+						},
+					]
+				},
 			]
 		}
 	);
