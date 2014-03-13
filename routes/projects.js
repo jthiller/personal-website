@@ -20,7 +20,7 @@ exports.acmemade = function(req, res){
 					"quote": true,
 					"textBlocks": [
 						{
-							"content": "One of the most picturesque cities in the world, San Francisco is packed with inspiration. Acme Made has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7x7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how Acme Made draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
+							"content": "One of the most picturesque cities in the world, San Francisco is packed with inspiration. AcmeMade has flourished in this 7 by 7 square mile span of innovation and culture since 2002. Understanding the city, the distinct look of its people, and the activities they enjoy, is how AcmeMade creates products that protect your devices while complementing your personality. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
 						},
 						{
 							"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the Acme Made design group to create products that reflect a love of technology and style."
