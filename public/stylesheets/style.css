@@ -378,6 +378,36 @@ section.homeImage .caption h3 {
 section.homeImage img {
   width: 60%;
 }
+section.fullImage {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  -webkit-transition: margin 1s ease, height 1s ease;
+  -moz-transition: margin 1s ease, height 1s ease;
+  -o-transition: margin 1s ease, height 1s ease;
+  -ms-transition: margin 1s ease, height 1s ease;
+  transition: margin 1s ease, height 1s ease;
+}
+section.fullImage img {
+  margin-left: 0;
+  width: 100%;
+  position: relative;
+}
+section.fullImage.caption img {
+  margin-bottom: -0.5em;
+}
+section.fullImage p.caption {
+  margin: 0 0 0 30%;
+  line-height: 1em;
+  font-size: 0.75em;
+  border-bottom: 1px solid #bbb;
+  display: inline-block;
+  padding: 0.5em 1em 0.25em;
+  min-width: 30%;
+  max-width: 60%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 section.singleImage {
   margin-bottom: 1.5rem;
   width: 100%;
@@ -597,6 +627,9 @@ footer a:hover {
   section.homeImage .caption p,section.homeImage .caption h3 {
     max-width: 90%;
   }
+  section.fullImage {
+    margin-bottom: 1rem;
+  }
   section.singleImage {
     margin-bottom: 1rem;
   }
@@ -628,6 +661,18 @@ footer a:hover {
   }
   section.homeImage img {
     padding-left: 2.5%;
+  }
+  section.fullImage {
+    margin-bottom: 0.5rem;
+  }
+  section.fullImage img {
+    margin: 0 auto;
+    width: 95%;
+    padding-left: 2.5%;
+  }
+  section.fullImage p.caption {
+    max-width: 90%;
+    margin-left: 2.5%;
   }
   section.singleImage {
     margin-bottom: 0.5rem;

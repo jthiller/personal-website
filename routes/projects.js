@@ -106,6 +106,23 @@ exports.acmemade = function(req, res){
 						{
 							"content": "Once the rough idea was figured out, I took to Fireworks (RIP!) to begin mocking up the website. Typically at this point I'd move straight into code, but with the scale of this project, it was important to get the sign-off of the CMO, Creative Director, and Brand Manager before diving into the Magento themeing process."
 						},
+					]
+				},
+				{
+					"fullImage": true,
+					"scalable": false,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/acmemade/OnScreeniPadMockup.jpg",
+							"imagealt": "iPad mockup showing tablet use and a mobile breakpoint.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
 						{
 							"sectiontitle": "Development",
 							"content": "Coding on the <a href='http://magento.com'>Magento</a> e-commerce platform was a unique learning curve. A fresh install of Magento has over 24,000 separate template, logic, and routing files; all working together to generate an extremely complex and capable website."

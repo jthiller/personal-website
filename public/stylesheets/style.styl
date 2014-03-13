@@ -320,6 +320,40 @@ section.homeImage
 
 
 
+section.fullImage
+	margin-bottom: 1.5rem
+	width: 100%
+	transition: margin 1s ease, height 1s ease
+	+media('tablet')
+		margin-bottom: 1rem
+	+media('phones')
+		margin-bottom: .5rem
+	img
+		margin-left: 0
+		width: 100%
+		position: relative
+		+media('phones')
+			margin: 0 auto
+			width: 95%
+			padding-left: 2.5%
+	&.caption img
+		margin-bottom: -.5em
+	p.caption
+		margin: 0 0 0 30%
+		line-height: 1em
+		font-size: .75em
+		border-bottom: 1px solid #bbb
+		display: inline-block
+		padding: .5em 1em .25em
+		min-width: 30%
+		max-width: 60%
+		box-sizing: border-box
+		+media('phones')
+			max-width: 90%
+			margin-left: 2.5%
+
+
+
 section.singleImage
 	margin-bottom: 1.5rem
 	width: 100%
