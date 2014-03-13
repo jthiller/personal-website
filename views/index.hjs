@@ -34,12 +34,10 @@
 				</li>
 			</ul>
 		</header>
-
 		<div class="mainContainer">
 			<section class="masthead"{{#backgroundgraphic}} style='background: url({{backgroundgraphic}}) 70% -20% no-repeat;'{{/backgroundgraphic}}>
 				<h1 class="title">{{{title}}}</h1>
 			</section>
-
 		{{#projects}}
 			<section class="homeImage">
 				<div class="caption">
@@ -80,9 +78,7 @@
 			{{/image}}
 		{{/aboutcontent}}
 
-
 		{{#projectcontent}}
-
 			{{#fullImage}}
 				{{#imageSet}}
 				<section class="fullImage{{#caption}} caption{{/caption}}">
@@ -104,7 +100,6 @@
 				</section>
 				{{/imageSet}}
 			{{/singleImage}}
-
 
 			{{#doubleImage}}
 				<section class="doubleImage{{#scalable}} scalable{{/scalable}}{{#caption}} caption{{/caption}}">
@@ -136,9 +131,7 @@
 
 		{{/projectcontent}}
 
-
 		</div> {{! Ends Main Container }}
-
 
 		<footer>
 			<a href="http://static.joby.com/temp/IMPORTANT.html">
@@ -173,7 +166,6 @@
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-24170077-1');ga('send','pageview');
 		</script>
-		{{! <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/FitText.js/1.1/jquery.fittext.min.js"></script> --> }}
 		<script src="/javascripts/main.js"></script>
 </body>
 </html>
