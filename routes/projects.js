@@ -186,7 +186,7 @@ exports.portfolio = function(req, res){
 							"content": "<p data-height='300' data-theme-id='0' data-slug-hash='kraIu' data-default-tab='result' class='codepen'>See the Pen <a href='http://codepen.io/jthiller/pen/kraIu'>Animated ☰ to × Button</a> by Joey Hiller (<a href='http://codepen.io/jthiller'>@jthiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p><script async src='//codepen.io/assets/embed/ei.js'></script>",
 						},
 						{
-							"content": "In large part, the website was inspired by a two week vacation to Tokyo. Though many of the elements existed independently, the trip acted as a sabbatical for me to bring many of these ideas together. I've always had a passion for minimalism, and of all places I feel a portfolio is a good place to limit visual noise."
+							"content": "In large part, the website was inspired by a two week vacation to Tokyo. Though many of the elements existed independently, the trip acted as a sabbatical for me to bring these ideas together. I've always had a passion for minimalism, and of all places I feel a portfolio is a good place to limit visual noise."
 						}
 					]
 				},
@@ -197,7 +197,7 @@ exports.portfolio = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/portfolio/earlySketch.jpg",
-							"imagealt": "An early sketch of the site.<br>The initial design was inspired by a trip to Tokyo"
+							"imagealt": "An early sketch of the site.<br>The initial design was inspired by my adventures in Tokyo."
 						}
 					]
 				},
@@ -223,7 +223,7 @@ exports.letsgoio = function(req, res){
 						},
 						{
 							// "sectiontitle": "Development",
-							"content": "Going into the hackathon, I had no project ideas. One friend that I made at a previous hackathon would also be there, so we decided to team up. Together, we found a couple of other folks who'd fit in to build a solid team. We threw ideas around for a while, but couldn't decide on anything concrete. It wasn't until six hours into our 24 hour hackathon that we landed on the idea for a service to help people find great and inspiring images across the globe. At that point, it was time to get busy. With 18 hours to go, we quickly discussed the app structure. Then I dove into the design of the app while the others built out the backend framework."
+							"content": "Going into the hackathon, I had no project ideas. One friend that I made at a previous hackathon would also be there, so we decided to team up. Together, we found a couple of other folks who'd fit in to build a solid team. We threw ideas around for a while, but couldn't decide on anything concrete. It wasn't until six hours into our 24 hour hackathon that we landed on the idea: we would create a service that helps people find great and inspiring images across the globe. At that point, it was time to get busy. With 18 hours to go, we quickly discussed the app structure. Then I dove into the design of the app while the others built the backend framework."
 						},
 					]
 				},
