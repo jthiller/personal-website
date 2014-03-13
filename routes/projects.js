@@ -115,7 +115,7 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/OnScreeniPadMockup.jpg",
-							"imagealt": "iPad mockup showing tablet use and a mobile breakpoint.",
+							"imagealt": "iPad mockup showing the winning design in tablet use and at a mobile breakpoint.",
 						}
 					]
 				},
@@ -208,25 +208,24 @@ exports.letsgoio = function(req, res){
 			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
 			"projectcontent": [
 				{
-					// "sectiontitle": "",
-					"content": "In June 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better.</em>&#8221;"
-				},
-				{
-					"singleImage": true,
-					"imageSet": [
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
 						{
-							"image": "http://placekitten.com/g/900/500",
-							"imagealt": "Me a long time ago.",
-						}
+							// "sectiontitle": "Development",
+							"content": "In April 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better than that.</em>&#8220;"
+						},
 					]
 				},
-				{
-					"sectiontitle": "My Story",
-					"content": "Even more words."
-				},
-				{
-					"content": "The technical details of this site."
-				}
+				// {
+				// 	"singleImage": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "http://placekitten.com/g/900/500",
+				// 			"imagealt": "Me a long time ago.",
+				// 		}
+				// 	]
+				// },
 			]
 		}
 	);

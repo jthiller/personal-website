@@ -134,14 +134,6 @@
 				</section>		
 			{{/textBlock}}		
 
-			{{^image}}
-				<section class="textBlock">
-					{{#sectiontitle}}
-						<h2>{{{sectiontitle}}}</h2>
-					{{/sectiontitle}}
-					<p>{{{content}}}</p>
-				</section>
-			{{/image}}
 		{{/projectcontent}}
 
 
