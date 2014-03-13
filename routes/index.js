@@ -62,11 +62,11 @@ exports.about = function(req, res){
 				},
 				{
 					"sectiontitle": "Site Details",
-					"content": "When I approach a redesign of my own portfolio, I take it as an opportunity to learn as many new topics as possible as well as create something that feels ‘new’ to the internet. This time around, I took the opportunity to explore Node.js. I’ve had limited experience with Node on a second-hand basis in the past; both of the winning hackathon projects I worked on operated via a Node backend."
+					"content": "When I approach a redesign of my own portfolio, I take it as an opportunity to learn as many new topics as possible as well as create something that feels ‘new’ to the internet. This time around, I took the opportunity to explore Node.js. I’ve had limited experience with Node on a second-hand basis in the past; both of the winning hackathon projects I worked on operated via a Node backend.<br>You can learn more about the tech and process behind this site within the case study <a href='/portfolio/'>Portfolio 2014</a>."
 				},
 				{
 					"sectiontitle": "Contact",
-					"content": "Email, phone,<br> <a href='https://twitter.com/jhiller'>Twitter</a><br><a href='https://www.facebook.com/joeyhiller'>Facebook</a><br> <a href='http://codepen.io/jthiller/'>Codepen</a><br>"
+					"content": "Find me on just about any social network.<br>Here are a few links to make it easy.<br><a href='https://twitter.com/jhiller'>Twitter</a><br><a href='https://www.facebook.com/joeyhiller'>Facebook</a><br><a href='http://instagram.com/joeyhiller'>Instagram</a><br><a href='http://codepen.io/jthiller/'>Codepen</a><br><a href='https://www.linkedin.com/pub/joey-hiller/b/116/460'>LinkedIn</a>"
 				}
 			]
 		}
