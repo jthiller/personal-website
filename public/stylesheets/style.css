@@ -542,10 +542,9 @@ section.textBlock h2 {
   -o-transition: margin 1s ease, height 1s ease;
   -ms-transition: margin 1s ease, height 1s ease;
   transition: margin 1s ease, height 1s ease;
-  margin: 0 0 0.25em 30%;
+  margin: 0 0 1.5rem 30%;
   width: 60%;
   font-weight: 400;
-  margin-bottom: 1.5rem;
 }
 section.textBlock h2 {
   margin: 0 0 0.5em 30%;
@@ -557,6 +556,15 @@ section.textBlock.quote p {
   font-weight: 300;
   border-left: 0.2em solid #ddd;
   padding-left: 0.5em;
+}
+.cp_embed_iframe {
+  -webkit-transition: margin 1s ease, height 1s ease;
+  -moz-transition: margin 1s ease, height 1s ease;
+  -o-transition: margin 1s ease, height 1s ease;
+  -ms-transition: margin 1s ease, height 1s ease;
+  transition: margin 1s ease, height 1s ease;
+  margin: 0 0 1.5rem 30%;
+  max-width: 60%;
 }
 footer {
   position: fixed;
@@ -593,6 +601,9 @@ footer a:hover {
     margin-bottom: 1rem;
   }
   section.textBlock p,section.textBlock h2 {
+    margin-bottom: 1rem;
+  }
+  .cp_embed_iframe {
     margin-bottom: 1rem;
   }
 }
@@ -698,6 +709,11 @@ footer a:hover {
   }
   section.textBlock h2 {
     margin-bottom: 1rem;
+  }
+  .cp_embed_iframe {
+    margin: 0 auto;
+    width: 90%;
+    margin: 0 0 0.5rem 5%;
   }
 }
 @-moz-keyframes mockload {
