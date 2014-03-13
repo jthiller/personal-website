@@ -1,8 +1,8 @@
 exports.acmemade = function(req, res){
 	res.render('index',
 		{
-			"pagetitle": "AcmeMade",
-			"title": "AcmeMade",
+			"pagetitle": "Acme Made",
+			"title": "Acme Made",
 			"backgroundgraphic": "/images/header_acmemade.svg",
 			"projectcontent": [
 				{
@@ -10,8 +10,8 @@ exports.acmemade = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"sectiontitle": "At Home With Design: AcmeMade & San&nbsp;Francisco",
-							"content": "My job at JOBY connects me to AcmeMade, a sister brand. There are three brands connected to my company, and it is common that I do work across all three."
+							"sectiontitle": "At Home With Design: Acme&nbsp;Made & San&nbsp;Francisco",
+							"content": "My job at JOBY connects me to Acme Made, a sister brand. There are three brands connected to my company, and it is common that I do work across all three."
 						}
 					]
 				},
@@ -20,10 +20,10 @@ exports.acmemade = function(req, res){
 					"quote": true,
 					"textBlocks": [
 						{
-							"content": "One of the most picturesque cities in the world, San Francisco is packed with inspiration. AcmeMade has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7x7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how AcmeMade draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
+							"content": "One of the most picturesque cities in the world, San Francisco is packed with inspiration. Acme Made has flourished in creating products that protect your devices while complementing your personality since 2002, all in this 7x7 square mile span of innovation and culture. Understanding the city, the distinct look of its people, and the activities they enjoy, is how Acme Made draws its product ideas. From photographing sunsets at the beach or reading on the pier, to working in the park or racing in a morning commute - inspiration is available at every turn."
 						},
 						{
-							"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the AcmeMade design group to create products that reflect a love of technology and style."
+							"content": "Vibrant thoroughfares and neighborhoods such as Noe Valley, Fillmore Street, Montgomery Street, Oak Street, and Bay Street inspire the Acme Made design group to create products that reflect a love of technology and style."
 						}
 					]
 				},
@@ -34,11 +34,11 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
-							"imagealt": "The AcmeMade Skinny Sleeve"
+							"imagealt": "The Acme Made Skinny Sleeve"
 						},
 						{
 							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
-							"imagealt": "The AcmeMade Skinny Book"
+							"imagealt": "The Acme Made Skinny Book"
 						}
 					]
 				},
@@ -47,7 +47,7 @@ exports.acmemade = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "In approaching the AcmeMade redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to the brand’s primary designer while I was an intern, so I had a decent familiarity with the brand’s core. In this case, the designer had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of his decisions, AcmeMade showed that a camera bag wasn't solely about the gear but about fashion and the creativity of the person wearing it."
+							"content": "In approaching the Acme Made redesign, I wanted to showcase the brand's style through the eyes of the target consumer as well as that of the designer. I had the benefit of sitting next to the brand’s primary designer while I was an intern, so I had a decent familiarity with the brand’s core. In this case, the designer had the flexibility to build the brand around his vision of what a stylish tablet sleeve or camera backpack should look like; minimalist, clean, and simple. As this extension of his decisions, Acme Made showed that a camera bag wasn't solely about the gear but about fashion and the creativity of the person wearing it."
 						},
 						{
 							"content": "I met with the brand managers and product designers to gather a sense of the intention of the brand. The lead designer provided a mood board consisting of beautiful homes that represented his vision of the customer. We had conversations about the products, how they had been represented the past, and how lacking the existing e-commerce site was at telling the product's design story."
@@ -61,7 +61,7 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
-							"imagealt": "The AcmeMade Skinny Book",
+							"imagealt": "The Acme Made Skinny Book",
 						}
 					]
 				},
@@ -82,7 +82,7 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/projectSketches.jpg",
-							"imagealt": "Late-stage AcmeMade sketches.",
+							"imagealt": "Late-stage Acme Made sketches.",
 						}
 					]
 				},

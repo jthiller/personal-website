@@ -17,9 +17,9 @@ exports.index = function(req, res){
 					"link": "/portfolio/"
 				},
 				{ 
-					"title": "AcmeMade",
+					"title": "Acme Made",
 					"caption": "Products that speak style.",
-					"subcaption": "Complete eCommerce on Magento core.",
+					"subcaption": "Complete e-commerce on Magento core.",
 					"image": "/images/project/acmemade/projectImage.jpg",
 					"link": "/acmemade/"
 				},
@@ -52,7 +52,7 @@ exports.about = function(req, res){
 					"content": "Throughout grade school I was very focused on science, math, and technology. As I graduated into university, I followed the path of an engineering degree until two years later I found a supreme lack of creativity in my life. At that point I shifted my focus 180 degrees to pursue a degree in studio art. My school had a fantastic program for both engineering and art, and I feel I was able to extract the best of both disciplines. I was also likely one of just a few in the history of my school to graduate with an art degree emphasizing in photography and graphic design <em>as well</em> as decent understanding of calculus, chemistry, programming, and mechanics."
 				},
 				{
-					"content": "The disciplines combined put me in a unique position when I moved to San Francisco immediately after graduation. When I moved I was not aware of the demand for the ‘web hybrid’. I took an internship as a designer, but my skill for code was quickly realized. Tasks quickly shifted from, &#8220;Make me some banner ads&#8221; to &#8220;Let’s completely redo our iPhone app.” or, “Let’s try something drastically cutting edge for this new product launch&#8221;. It was only a short time until I signed on as a full-time employee. Since that time I’ve redesigned entire ecommerce platforms and built out special elements to promote and sell my company’s products."
+					"content": "The disciplines combined put me in a unique position when I moved to San Francisco immediately after graduation. When I moved I was not aware of the demand for the ‘web hybrid’. I took an internship as a designer, but my skill for code was quickly realized. Tasks quickly shifted from, &#8220;Make me some banner ads&#8221; to &#8220;Let’s completely redo our iPhone app” or, “Let’s try something drastically cutting edge for this new product launch&#8221;. It was only a short time until I signed on as a full-time employee. Since that time I’ve redesigned entire e-commerce platforms and built out special elements to promote and sell my company’s products."
 				},
 				{
 					"image": "http://placekitten.com/g/900/500",
