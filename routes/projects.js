@@ -115,7 +115,7 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/OnScreeniPadMockup.jpg",
-							"imagealt": "iPad mockup showing the winning design in tablet use and at a mobile breakpoint.",
+							"imagealt": "iPad mockup showing the selected design in tablet use and at a mobile breakpoint.",
 						}
 					]
 				},
@@ -126,6 +126,9 @@ exports.acmemade = function(req, res){
 						{
 							"sectiontitle": "Development",
 							"content": "Coding on the <a href='http://magento.com'>Magento</a> e-commerce platform was a unique learning curve. A fresh install of Magento has over 24,000 separate template, logic, and routing files; all working together to generate an extremely complex and capable website."
+						},
+						{
+							"content": "I spent about four weeks building the site theme. The process included a lot of testing across different product types and responsive breakpoints. Using SCSS as a preprocessor helped keep things organized for such a large-scale project."
 						},
 					]
 				}
