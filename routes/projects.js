@@ -157,6 +157,9 @@ exports.portfolio = function(req, res){
 							"content": "I structured my Node environment around Amazon's Elastic Beanstalk as to take advantage of their integrated git deployment system. The code, therefore, is <a href='https://github.com/jthiller/personal-website'>versioned on github</a>. If you happen to take a look at my user page, you might note this page was mostly built on the nights and weekends of an 17-day committing spree. There's passion in those numbers, friend."
 						},
 						{
+							"content": "To keep myself on-track, I used Asana to prioritize tasks. The Asana workflow worked well because I also utilize it for work; so when I had an idea I could quickly add it to my list, then I could check off a couple tasks each night."
+						},
+						{
 							"content": "The website it's self is built on Express.js, the popular server framework. The CSS is preprocessed using Stylus with Nib for vendor prefixing. Stylus carried only a slight learning curve from Less or Scss, but had some major advantages. The biggest thing Stylus offered was the ability to inline, then group my media queries using a cache. Roman Komarov, a stylus contribuitor, writes about the process on his blog (<a href='http://kizu.ru/en/issues/new-stylus-features/'>kizu.ru</a>)."
 						}
 					]
@@ -240,8 +243,51 @@ exports.letsgoio = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							// "sectiontitle": "Development",
-							"content": ""
+							"content": "On page load, the application geolocates based on the user's IP. This added detail helps to make the app feel more friendly and easier to understand. The users' thought process can begin with an already recognized place."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/letsgoio/MapChangeScreenshot.jpg",
+							"imagealt": "The user can change their route based on scenic spots.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "Once a trip has been entered, the app draws the shortest path between the two points and populates the view with top-rated pictures.<br>The user can customize their trip by changing their route to create detours for scenic spots."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/letsgoio/FullviewScreenshot.jpg",
+							"imagealt": "Full image view drill-down from the map.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"sectiontitle": "Press",
+							"content": "Some coverage of the hackathon can be found online:"
+						},
+						{
+							"content": "<a href='http://thenextweb.com/insider/2013/04/08/after-two-days-and-63-hacks-we-choose-the-best-from-aviary-and-facebooks-fourth-photo-hack-day/'>TheNextWeb</a><br><a href='http://blog.aviary.com/posts/photo-hack-day-4-recap-300-developers-and-68-apps-in-less-than-24-hours'>Aviary Blog</a>"
 						},
 					]
 				},
