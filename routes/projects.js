@@ -180,7 +180,7 @@ exports.portfolio = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "The design of this site comes from the evolution and iteration of many various projects. For example, you may be asking yourself, &#8220;Where's my hamburger?&#8221; The hamburger, in this case referring to the 3-bar menu icon used throughout contemporary UI design. In my initial design for the site, I used the hamburger, neatly crafted to animate from its &#9776; state to an &#10005; on activation. However on this website, my playground for experimentation, I wanted to try something a little different. I landed on the &#8220;+ to &mdash;&#8221;  set as an alternative to the mainstay of the hamburger."
+							"content": "The design of this site comes from the evolution and iteration of many various projects. For example, you may be asking yourself, &#8220;Where's my hamburger?&#8221; The hamburger, in this case refers to the 3-bar menu icon used throughout contemporary UI design. In my initial design for the site I used the hamburger, and neatly crafted the animation of &#9776; to &#10005; on activation. However on this website, my playground for experimentation, I wanted to try something a little different. I landed on the &#8220;+ to &mdash;&#8221;  set as an alternative to the mainstay of the hamburger."
 						},
 						{
 							"content": "<p data-height='300' data-theme-id='0' data-slug-hash='kraIu' data-default-tab='result' class='codepen'>See the Pen <a href='http://codepen.io/jthiller/pen/kraIu'>Animated ☰ to × Button</a> by Joey Hiller (<a href='http://codepen.io/jthiller'>@jthiller</a>) on <a href='http://codepen.io'>CodePen</a>.</p><script async src='//codepen.io/assets/embed/ei.js'></script>",
