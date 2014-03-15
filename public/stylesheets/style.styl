@@ -12,7 +12,7 @@
 
 blackColor = #222
 
-proximaFamily = "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif
+proximaFamily = "Proxima Nova","Gill Sans MT","Gill Sans","Helvetica Neue",Helvetica,Arial,sans-serif
 
 borderThickness = .25em
 borderAnimTime = .35s
@@ -282,7 +282,7 @@ section.homeImage
 	overflow-y: hidden
 	margin-bottom: 2.5rem
 	width: 100%
-	height: 14em
+	height: 15em
 	transition: margin 1s ease, height 1s ease
 	+media('tablet')
 		margin-bottom: 2rem
@@ -313,12 +313,6 @@ section.homeImage
 		width: 60%
 		+media('phones')
 			padding-left: 2.5%
-
-
-
-
-
-
 
 section.fullImage
 	margin-bottom: 1.5rem
@@ -351,8 +345,6 @@ section.fullImage
 		+media('phones')
 			max-width: 90%
 			margin-left: 2.5%
-
-
 
 section.singleImage
 	margin-bottom: 1.5rem
@@ -489,28 +481,22 @@ section.doubleImage
 				margin-bottom: -.5em
 
 section.textBlock
-	// margin-bottom: 1.5rem
 	width: 100%
-	// +media('tablet')
-	// 	margin-bottom: 1rem
-	// +media('phones')
-	// 	margin-bottom: .5rem
 	p, h2
 		transition: margin 1s ease, height 1s ease
 		margin: 0 0 1.5rem 30%
 		width: 60%
 		font-weight: 400
-		// margin-bottom: 1.5 rem
 		+media('phones')
 			margin: 0 auto
 			width: 90%
-			// margin-left: 5%
 			margin: 0 0 .5rem 5%
 		+media('tablet')
 			margin-bottom: 1rem
 	h2
 		margin: 0 0 .5em 30%
 		line-height: 1em
+		font-weight: 300
 		+media('phones')
 			margin-bottom: 1rem
 	&.quote
@@ -520,7 +506,6 @@ section.textBlock
 			font-weight: 300
 			border-left: .2em solid #ddd
 			padding-left: .5em
-
 
 .cp_embed_iframe
 		transition: margin 1s ease, height 1s ease
@@ -533,7 +518,6 @@ section.textBlock
 		+media('tablet')
 			margin-bottom: 1rem
 
-
 footer
 	position: fixed
 	bottom: borderThickness
@@ -544,8 +528,6 @@ footer
 		font-size: 10px
 		&:hover
 			color: #aaa
-
-
 
 // Output Breakpoint Styles
 apply_media_cache()
