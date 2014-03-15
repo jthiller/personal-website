@@ -323,7 +323,7 @@ exports.gorillacam = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/gorillacam/HomeScreenshot.jpg",
-							"imagealt": "LetsGo.io Load Screen",
+							"imagealt": "Early GorillaCam sketches",
 						}
 					]
 				},
@@ -346,7 +346,7 @@ exports.gorillacam = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/gorillacam/MapChangeScreenshot.jpg",
-							"imagealt": "The user can change their route based on scenic spots.",
+							"imagealt": "GorillaCam mockups",
 						}
 					]
 				},

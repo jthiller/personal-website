@@ -3,7 +3,7 @@ body {
   margin: 0;
   background: #fff;
   color: #222;
-  font: 16px/1.5 "Proxima Nova", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "proxima-nova", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .pageframe {
   position: absolute;
