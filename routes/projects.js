@@ -309,11 +309,10 @@ exports.gorillacam = function(req, res){
 					"textBlocks": [
 						{
 							// "sectiontitle": "Development",
-							"content": "In April 2013 I attended Photo Hack Day 4 with one thought in mind. &#8220;<em>I won second at PHD3. It might be a little crazy, but I know I can do better than that.</em>&#8220;"
+							"content": "Shortly after starting at JOBY as an intern, I was presented with the opportunity to redesign their aging iPhone app, GorillaCam, from the ground-up."
 						},
 						{
-							// "sectiontitle": "Development",
-							"content": "Going into the hackathon, I had no project ideas. One friend that I made at a previous hackathon would also be there, so we decided to team up. Together, we found a couple of other folks who'd fit in to build a solid team. We threw ideas around for a while, but couldn't decide on anything concrete. It wasn't until six hours into our 24 hour hackathon that we landed on the idea: we would create a service that helps people find great and inspiring images across the globe. At that point, it was time to get busy. With 18 hours to go, we quickly discussed the app structure. Then I dove into the design of the app while the others built the backend framework."
+							"content": "The project presented many possibilities for improvement and experimentation. With a 'sky's the limit' mentality, I jumped right in. Fortunately I had been a user of the earlier versions of GorillaCam before working at JOBY. This familiarity made my understanding of the userbase and community easier."
 						},
 					]
 				},
@@ -333,7 +332,10 @@ exports.gorillacam = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "On page load, the application geolocates based on the user's IP. This added detail helps to make the app feel more friendly and easier to understand. The users' thought process can begin with an already recognized place."
+							"content": "With the app's features and guidelines outlined, I began wireframing the app. I was able to quickly test out the early wireframes within the team. Once the wireframes hit a certain point of completion, I tested them out on coworkers."
+						},
+						{
+							"content": ""
 						},
 					]
 				},
