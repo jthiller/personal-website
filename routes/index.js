@@ -57,7 +57,7 @@ exports.about = function(req, res){
 				{
 					"image": "/images/mebirds.gif",
 					"imagealt": "Me chasing birds at Avila Beach near San Luis Obispo",
-					"scalable": false,
+					"scalable": true,
 					"caption": true
 				},
 				{
