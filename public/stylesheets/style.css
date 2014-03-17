@@ -434,6 +434,7 @@ section.singleImage.scalable img {
   -o-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
+  width: 60%;
   cursor: pointer;
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in;
@@ -682,9 +683,12 @@ footer a:hover {
   section.singleImage img {
     margin: 0 auto;
     width: 95%;
+    max-width: none;
     padding-left: 2.5%;
   }
   section.singleImage.scalable img {
+    width: 95%;
+    max-width: none;
     cursor: default;
     -webkit-transform: none;
     -moz-transform: none;
