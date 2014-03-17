@@ -55,8 +55,8 @@ exports.about = function(req, res){
 					"content": "The disciplines combined put me in a unique position when I moved to San Francisco immediately after graduation. When I moved I was not aware of the demand for the ‘web hybrid’. I took an internship as a designer, but my skill for code was quickly realized. Tasks quickly shifted from, &#8220;Make me some banner ads&#8221; to &#8220;Let’s completely redo our iPhone app” or, “Let’s try something drastically cutting edge for this new product launch&#8221;. It was only a short time until I signed on as a full-time employee. Since that time I’ve redesigned entire e-commerce platforms and built out special elements to promote and sell my company’s products."
 				},
 				{
-					"image": "http://placekitten.com/g/900/500",
-					"imagealt": "I have a strong affinity for placekittens.",
+					"image": "/images/mebirds.gif",
+					"imagealt": "Me chasing birds at Avila Beach near San Luis Obispo",
 					"scalable": false,
 					"caption": true
 				},

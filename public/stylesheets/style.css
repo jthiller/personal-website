@@ -263,11 +263,11 @@ header.menu ul {
   border: 0.25em solid #222;
   background-color: #fff;
   list-style: none;
-  -webkit-transition: left 0.75s cubic-bezier(0, 0.5, 0.5, 1);
-  -moz-transition: left 0.75s cubic-bezier(0, 0.5, 0.5, 1);
-  -o-transition: left 0.75s cubic-bezier(0, 0.5, 0.5, 1);
-  -ms-transition: left 0.75s cubic-bezier(0, 0.5, 0.5, 1);
-  transition: left 0.75s cubic-bezier(0, 0.5, 0.5, 1);
+  -webkit-transition: left 0.5s cubic-bezier(0, 0.5, 0.5, 1);
+  -moz-transition: left 0.5s cubic-bezier(0, 0.5, 0.5, 1);
+  -o-transition: left 0.5s cubic-bezier(0, 0.5, 0.5, 1);
+  -ms-transition: left 0.5s cubic-bezier(0, 0.5, 0.5, 1);
+  transition: left 0.5s cubic-bezier(0, 0.5, 0.5, 1);
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);
@@ -420,7 +420,7 @@ section.singleImage {
 }
 section.singleImage img {
   margin-left: 30%;
-  width: 60%;
+  max-width: 60%;
   position: relative;
 }
 section.singleImage.scalable img {
