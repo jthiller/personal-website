@@ -20,7 +20,7 @@ exports.portfolio = function(req, res){
 							"content": "To keep myself on-track, I used Asana to prioritize tasks. The Asana workflow worked well because I also utilize it for work; so when I had an idea I could quickly add it to my list, then I could check off a couple tasks each night."
 						},
 						{
-							"content": "The website it's self is built on Express.js, the popular server framework. The CSS is preprocessed using Stylus with Nib for vendor prefixing. Stylus carried only a slight learning curve from Less or Scss, but had some major advantages. The biggest thing Stylus offered was the ability to inline, then group my media queries using a cache. Roman Komarov, a Stylus contribuitor, writes about the process on his blog (<a href='http://kizu.ru/en/issues/new-stylus-features/'>kizu.ru</a>)."
+							"content": "The website it's self is built on Express.js, the popular server framework. The CSS is preprocessed using Stylus with Nib for vendor prefixing. Stylus carried only a slight learning curve from Less or Scss, but had some major advantages. The biggest thing Stylus offered was the ability to inline, then group my media queries using a cache. Roman Komarov, a Stylus contributor, writes about the process on his blog (<a href='http://kizu.ru/en/issues/new-stylus-features/'>kizu.ru</a>)."
 						}
 					]
 				},
