@@ -42,3 +42,5 @@ Once the rough idea was figured out, I took to Fireworks (RIP!) to begin mocking
 
 ###Development
 Coding on the [Magento](magento.com) e-commerce platform was a unique learning curve. A fresh install of Magento has over 24,000 separate template, logic, and routing files; all working together to generate an extremely complex and capable website.
+
+I spent about four weeks building the site theme. The process included a lot of testing across different product types and responsive breakpoints. Using SCSS as a preprocessor helped keep things organized for such a large-scale project.
