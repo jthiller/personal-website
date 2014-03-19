@@ -51,7 +51,7 @@
 					{{/subcaption}}
 				</div>
 				<a href="{{link}}">
-					<img src="{{image}}">
+					<div class="image" style='background-image: url({{image}})'></div>
 				</a>
 			</section>
 		{{/projects}}

@@ -376,8 +376,14 @@ section.homeImage .caption h3 {
   float: right;
   clear: both;
 }
-section.homeImage img {
+section.homeImage .image {
   width: 60%;
+  height: 100%;
+  display: inline-block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 section.fullImage {
   margin-bottom: 1.5rem;
@@ -662,7 +668,7 @@ footer a:hover {
   section.homeImage .caption {
     border: none;
   }
-  section.homeImage img {
+  section.homeImage .image {
     padding-left: 2.5%;
   }
   section.fullImage {
