@@ -104,10 +104,6 @@ exports.acmemade = function(req, res){
 							"image": "/images/project/acmemade/SkinnySleeveHome.jpg",
 							"imagealt": "The Acme Made Skinny Sleeve"
 						},
-						// {
-						// 	"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
-						// 	"imagealt": "The Acme Made Skinny Book"
-						// }
 					]
 				},
 				{
@@ -129,7 +125,7 @@ exports.acmemade = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/acmemade/SkinnyBook_Up.jpg",
-							"imagealt": "The Acme Made Skinny Book",
+							"imagealt": "The Acme Made Skinny Book for iPad Mini",
 						}
 					]
 				},
@@ -368,19 +364,6 @@ exports.gorillacam = function(req, res){
 							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
 							"imagealt": "Full image view drill-down from the map.",
 						}
-					]
-				},
-				{
-					"textBlock": true,
-					"quote": false,
-					"textBlocks": [
-						{
-							"sectiontitle": "Press",
-							"content": "Some coverage of the hackathon can be found online:"
-						},
-						{
-							"content": "<a href='http://thenextweb.com/insider/2013/04/08/after-two-days-and-63-hacks-we-choose-the-best-from-aviary-and-facebooks-fourth-photo-hack-day/'>TheNextWeb</a><br><a href='http://blog.aviary.com/posts/photo-hack-day-4-recap-300-developers-and-68-apps-in-less-than-24-hours'>Aviary Blog</a>"
-						},
 					]
 				},
 			]
