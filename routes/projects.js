@@ -330,9 +330,9 @@ exports.gorillacam = function(req, res){
 						{
 							"content": "With the app's features and guidelines outlined, I began wireframing the app. I was able to quickly test out the early wireframes within the team. Once the wireframes hit a certain point of completion, I tested them out on coworkers."
 						},
-						{
-							"content": ""
-						},
+						// {
+						// 	"content": ""
+						// },
 					]
 				},
 				{
@@ -351,7 +351,7 @@ exports.gorillacam = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "Once a trip has been entered, the app draws the shortest path between the two points and populates the view with top-rated pictures.<br>The user can customize their trip by changing their route to create detours for scenic spots."
+							"content": "For early testing, I utilized the method of paper prototyping the app at-scale. A script guided the users throught the app through a series of prompts. Notes were taken on each step of the process, then a post-test interview gave further feedback."
 						},
 					]
 				},
@@ -362,8 +362,97 @@ exports.gorillacam = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
-							"imagealt": "Full image view drill-down from the map.",
+							"imagealt": "Testing the app using paper prototypes.",
 						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "With the feedback from testing, some minor rework was made to the layout of the app. Some quick testing validated these changes, then it was time to move into UI styling. Logos were finalized for each of the modes and a general theme was decided upon."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+							"imagealt": "The progression of the app designs.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "As the designs shaped up and neared development, I recognized the necessity for some sort of organization. As a result, I built out a style/asset bank guide to keep everybody on the same page. As the developers began to assimilate the designs, some small tweaks in the design were required. Changes were made and respective assets were updated in the guide."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+							"imagealt": "The GorillaCam styleguide.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was design and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+							"imagealt": "The app on an iPhone 4 and iPhone 5",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "Today, GorillaCam makes about enough from app store sales to keep up with it's development budget. Some time was spent chasing bugs, some extra time is being spent on currently unreleased features."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+							"imagealt": "Loved by its community!",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": ""
+						},
 					]
 				},
 			]
