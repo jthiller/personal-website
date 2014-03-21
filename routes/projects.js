@@ -318,7 +318,7 @@ exports.gorillacam = function(req, res){
 					"caption": true,
 					"imageSet": [
 						{
-							"image": "/images/project/gorillacam/HomeScreenshot.jpg",
+							"image": "/images/project/gorillacam/GorillaCam_EarlySketches.jpg",
 							"imagealt": "Early GorillaCam sketches",
 						}
 					]
@@ -341,8 +341,8 @@ exports.gorillacam = function(req, res){
 					"caption": true,
 					"imageSet": [
 						{
-							"image": "/images/project/gorillacam/MapChangeScreenshot.jpg",
-							"imagealt": "GorillaCam mockups",
+							"image": "/images/project/gorillacam/Balsamiq_Mockups.jpg",
+							"imagealt": "GorillaCam mockups built in Balsamiq",
 						}
 					]
 				},
@@ -411,7 +411,7 @@ exports.gorillacam = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was design and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout."
+							"content": "It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was designed and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout."
 						},
 					]
 				},
