@@ -29,6 +29,13 @@ exports.index = function(req, res){
 					"subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
 					"image": "/images/project/letsgoio/projectImage.jpg",
 					"link": "/letsgoio/"
+				},
+				{ 
+					"title": "GorillaCam",
+					"caption": "JOBY's photography app for iPhone",
+					// "subcaption": "1st Place hackathon project.<br>Photo Hack Day 4",
+					"image": "/images/project/gorillacam/projectImage.jpg",
+					"link": "/gorillacam/"
 				}
 			],
 			"markup": {

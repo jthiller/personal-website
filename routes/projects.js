@@ -304,7 +304,6 @@ exports.gorillacam = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							// "sectiontitle": "Development",
 							"content": "Shortly after starting at JOBY as an intern, I was presented with the opportunity to redesign their aging iPhone app, GorillaCam, from the ground-up."
 						},
 						{
@@ -312,17 +311,17 @@ exports.gorillacam = function(req, res){
 						},
 					]
 				},
-				{
-					"singleImage": true,
-					"scalable": true,
-					"caption": true,
-					"imageSet": [
-						{
-							"image": "/images/project/gorillacam/GorillaCam_EarlySketches.jpg",
-							"imagealt": "Early GorillaCam sketches",
-						}
-					]
-				},
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": true,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/GorillaCam_EarlySketches.jpg",
+				// 			"imagealt": "Early GorillaCam sketches",
+				// 		}
+				// 	]
+				// },
 				{
 					"textBlock": true,
 					"quote": false,
@@ -330,9 +329,6 @@ exports.gorillacam = function(req, res){
 						{
 							"content": "With the app's features and guidelines outlined, I began wireframing the app. I was able to quickly test out the early wireframes within the team. Once the wireframes hit a certain point of completion, I tested them out on coworkers."
 						},
-						// {
-						// 	"content": ""
-						// },
 					]
 				},
 				{
@@ -355,17 +351,17 @@ exports.gorillacam = function(req, res){
 						},
 					]
 				},
-				{
-					"singleImage": true,
-					"scalable": true,
-					"caption": true,
-					"imageSet": [
-						{
-							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
-							"imagealt": "Testing the app using paper prototypes.",
-						}
-					]
-				},
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": true,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+				// 			"imagealt": "Testing the app using paper prototypes.",
+				// 		}
+				// 	]
+				// },
 				{
 					"textBlock": true,
 					"quote": false,
@@ -377,12 +373,12 @@ exports.gorillacam = function(req, res){
 				},
 				{
 					"singleImage": true,
-					"scalable": true,
+					"scalable": false,
 					"caption": true,
 					"imageSet": [
 						{
-							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
-							"imagealt": "The progression of the app designs.",
+							"image": "/images/project/gorillacam/UIProgression.gif",
+							"imagealt": "Progression of the camera UI.",
 						}
 					]
 				},
@@ -391,17 +387,17 @@ exports.gorillacam = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "As the designs shaped up and neared development, I recognized the necessity for some sort of organization. As a result, I built out a style/asset bank guide to keep everybody on the same page. As the developers began to assimilate the designs, some small tweaks in the design were required. Changes were made and respective assets were updated in the guide."
+							"content": "As the designs shaped up and neared development, I recognized the necessity for some sort of organization. As a result, I built out a <a href='http://gorillacam.joeyhiller.com/'>style/asset bank guide</a> to keep everybody on the same page. As the developers began to assimilate the designs, some small tweaks in the design were required. Changes were made and respective assets were updated in the guide."
 						},
 					]
 				},
 				{
 					"singleImage": true,
-					"scalable": true,
+					"scalable": false,
 					"caption": true,
 					"imageSet": [
 						{
-							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+							"image": "/images/project/gorillacam/Styleguide.jpg",
 							"imagealt": "The GorillaCam styleguide.",
 						}
 					]
@@ -415,17 +411,17 @@ exports.gorillacam = function(req, res){
 						},
 					]
 				},
-				{
-					"singleImage": true,
-					"scalable": true,
-					"caption": true,
-					"imageSet": [
-						{
-							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
-							"imagealt": "The app on an iPhone 4 and iPhone 5",
-						}
-					]
-				},
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": true,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+				// 			"imagealt": "The app on an iPhone 4 and iPhone 5",
+				// 		}
+				// 	]
+				// },
 				{
 					"textBlock": true,
 					"quote": false,
@@ -435,17 +431,17 @@ exports.gorillacam = function(req, res){
 						},
 					]
 				},
-				{
-					"singleImage": true,
-					"scalable": true,
-					"caption": true,
-					"imageSet": [
-						{
-							"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
-							"imagealt": "Loved by its community!",
-						}
-					]
-				},
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": true,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/FullviewScreenshot.jpg",
+				// 			"imagealt": "Loved by its community!",
+				// 		}
+				// 	]
+				// },
 				{
 					"textBlock": true,
 					"quote": false,
