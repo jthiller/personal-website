@@ -397,7 +397,7 @@ exports.gorillacam = function(req, res){
 					"caption": true,
 					"imageSet": [
 						{
-							"image": "/images/project/gorillacam/Styleguide.jpg",
+							"image": "/images/project/gorillacam/StyleGuide.jpg",
 							"imagealt": "The GorillaCam styleguide.",
 						}
 					]
