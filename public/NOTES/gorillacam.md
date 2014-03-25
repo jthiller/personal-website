@@ -21,7 +21,7 @@ As the designs shaped up and neared development, I recognized the necessity for 
 
 [[Style guide SS]]
 
-It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was design and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout.
+It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was designed and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout.
 
 [[compare iphone 5 and 5s screens]]
 
