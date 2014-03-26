@@ -422,15 +422,15 @@ exports.gorillacam = function(req, res){
 				// 		}
 				// 	]
 				// },
-				{
-					"textBlock": true,
-					"quote": false,
-					"textBlocks": [
-						{
-							"content": "Today, GorillaCam makes about enough from app store sales to keep up with it's development budget. Some time was spent chasing bugs, some extra time is being spent on currently unreleased features."
-						},
-					]
-				},
+				// {
+				// 	"textBlock": true,
+				// 	"quote": false,
+				// 	"textBlocks": [
+				// 		{
+				// 			"content": "Today, GorillaCam makes about enough from app store sales to keep up with it's development budget. Some time was spent chasing bugs, some extra time is being spent on currently unreleased features."
+				// 		},
+				// 	]
+				// },
 				// {
 				// 	"singleImage": true,
 				// 	"scalable": true,
