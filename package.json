@@ -8,7 +8,7 @@
   "dependencies": {
     "express": "3.2.3",
     "hjs": "*",
-    "stylus": "*",
+    "stylus": "0.41.0",
     "nib": "*"
   }
 }
