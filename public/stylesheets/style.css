@@ -537,6 +537,8 @@ footer a:hover {
   section.masthead {
     height: 40em;
     margin-bottom: -16em;
+    -webkit-background-size: 35em !important;
+    -moz-background-size: 35em !important;
   }
   section.masthead .title {
     font-size: 2.5em;
@@ -566,6 +568,8 @@ footer a:hover {
   section.masthead {
     height: 30em;
     margin-bottom: -12em;
+    -webkit-background-size: 25em !important;
+    -moz-background-size: 25em !important;
   }
   section.masthead .title {
     left: 5%;
@@ -617,9 +621,26 @@ footer a:hover {
     width: 95%;
     max-width: none;
     cursor: default;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
   }
   section.singleImage.scalable img.active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
     cursor: default;
+    -webkit-box-shadow: none;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
     margin-left: 0;
   }
   section.singleImage p.caption {
