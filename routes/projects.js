@@ -480,29 +480,29 @@ exports.bkr = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "Throughout my career I have enjoyed the process of creating concert posters. To me, they are one of the ultimate forms of expression."
+							"content": "Throughout my career I have enjoyed the process of creating concert posters. To me, they are one of the ultimate forms of expression. My process for making a poster includes constantly listening to their music to visualize their style."
 						}
 					]
 				},
 				{
 					"singleImage": true,
 					"scalable": true,
-					"caption": false,
+					"caption": true,
 					"imageSet": [
 						{
 							"image": "/images/project/bkr/Eskmo_FLAT_COLOR.jpg",
-							"imagealt": "GorillaCam mockups built in Balsamiq",
+							"imagealt": "Eskmo is a Bay Area artist creating experimental electronic music.",
 						}
 					]
 				},
 				{
 					"singleImage": true,
 					"scalable": true,
-					"caption": false,
+					"caption": true,
 					"imageSet": [
 						{
 							"image": "/images/project/bkr/GOLDPANDA.jpg",
-							"imagealt": "GorillaCam mockups built in Balsamiq",
+							"imagealt": "Gold Panda is an alternative electronic artist on the Ghostly label.",
 						}
 					]
 				},
@@ -513,7 +513,7 @@ exports.bkr = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/bkr/PTM_Poster_FLAT.jpg",
-							"imagealt": "Designed as part of a larger campaign.",
+							"imagealt": "Designed as part of a larger campaign including radio, web, and Facebook.",
 						}
 					]
 				},
@@ -535,7 +535,7 @@ exports.bkr = function(req, res){
 					"imageSet": [
 						{
 							"image": "/images/project/bkr/YellowOstrich_COLOR_11x17_FINAL_Yellow.jpg",
-							"imagealt": "Designed as part of a larger campaign.",
+							"imagealt": "",
 						}
 					]
 				},
