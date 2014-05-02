@@ -544,7 +544,7 @@ exports.bkr = function(req, res){
 					"quote": false,
 					"textBlocks": [
 						{
-							"content": "Through experience, I have learned that a major part of the success of a project can be contributed to good documentation."
+							"content": "Through experience, I have learned that a major part of the success of a project can be attributed to good documentation."
 						},
 					]
 				},
@@ -568,17 +568,17 @@ exports.bkr = function(req, res){
 				// 		},
 				// 	]
 				// },
-				// {
-				// 	"singleImage": true,
-				// 	"scalable": false,
-				// 	"caption": true,
-				// 	"imageSet": [
-				// 		{
-				// 			"image": "/images/project/gorillacam/UIProgression.gif",
-				// 			"imagealt": "Progression of the camera UI.",
-				// 		}
-				// 	]
-				// },
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/Buck_Coffeebag.jpg",
+							"imagealt": "Student project: branding",
+						}
+					]
+				},
 				// {
 				// 	"textBlock": true,
 				// 	"quote": false,
@@ -588,17 +588,17 @@ exports.bkr = function(req, res){
 				// 		},
 				// 	]
 				// },
-				// {
-				// 	"singleImage": true,
-				// 	"scalable": false,
-				// 	"caption": true,
-				// 	"imageSet": [
-				// 		{
-				// 			"image": "/images/project/gorillacam/StyleGuide.jpg",
-				// 			"imagealt": "The GorillaCam styleguide.",
-				// 		}
-				// 	]
-				// },
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/SLRZoom_Full.jpg",
+							"imagealt": "A version of the redesigned JOBY product pages.",
+						}
+					]
+				},
 				// {
 				// 	"textBlock": true,
 				// 	"quote": false,
