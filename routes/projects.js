@@ -455,3 +455,169 @@ exports.gorillacam = function(req, res){
 		}
 	);
 };
+
+
+
+
+exports.bkr = function(req, res){
+	res.render('index',
+		{
+			"pagetitle": "For Bkr",
+			"title": "For Bkr",
+			// "backgroundgraphic": "/images/JAPAN_Simplified.svg",
+			"projectcontent": [
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "Hello Bkr friends, here is a small collection of some of my non-web related work to help you get a better sense of the breadth of my portfolio."
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "Throughout my career I have enjoyed the process of creating concert posters. To me, they are one of the ultimate forms of expression."
+						}
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": false,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/Eskmo_FLAT_COLOR.jpg",
+							"imagealt": "GorillaCam mockups built in Balsamiq",
+						}
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": false,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/GOLDPANDA.jpg",
+							"imagealt": "GorillaCam mockups built in Balsamiq",
+						}
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/PTM_Poster_FLAT.jpg",
+							"imagealt": "Designed as part of a larger campaign.",
+						}
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": false,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/Waterhouse_FLAT_COLOR.jpg",
+							"imagealt": "Designed as part of a larger campaign.",
+						}
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": false,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/YellowOstrich_COLOR_11x17_FINAL_Yellow.jpg",
+							"imagealt": "Designed as part of a larger campaign.",
+						}
+					]
+				},
+				{
+					"textBlock": true,
+					"quote": false,
+					"textBlocks": [
+						{
+							"content": "Through experience, I have learned that a major part of the success of a project can be contributed to good documentation."
+						},
+					]
+				},
+				{
+					"singleImage": true,
+					"scalable": true,
+					"caption": true,
+					"imageSet": [
+						{
+							"image": "/images/project/bkr/AcmeMade_Document.jpg",
+							"imagealt": "Section of the style guide defining color swatch maintenance.",
+						}
+					]
+				},
+				// {
+				// 	"textBlock": true,
+				// 	"quote": false,
+				// 	"textBlocks": [
+				// 		{
+				// 			"content": ""
+				// 		},
+				// 	]
+				// },
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": false,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/UIProgression.gif",
+				// 			"imagealt": "Progression of the camera UI.",
+				// 		}
+				// 	]
+				// },
+				// {
+				// 	"textBlock": true,
+				// 	"quote": false,
+				// 	"textBlocks": [
+				// 		{
+				// 			"content": "As the designs shaped up and neared development, I recognized the necessity for some sort of organization. As a result, I built out a <a href='http://gorillacam.joeyhiller.com/'>style/asset bank guide</a> to keep everybody on the same page. As the developers began to assimilate the designs, some small tweaks in the design were required. Changes were made and respective assets were updated in the guide."
+				// 		},
+				// 	]
+				// },
+				// {
+				// 	"singleImage": true,
+				// 	"scalable": false,
+				// 	"caption": true,
+				// 	"imageSet": [
+				// 		{
+				// 			"image": "/images/project/gorillacam/StyleGuide.jpg",
+				// 			"imagealt": "The GorillaCam styleguide.",
+				// 		}
+				// 	]
+				// },
+				// {
+				// 	"textBlock": true,
+				// 	"quote": false,
+				// 	"textBlocks": [
+				// 		{
+				// 			"content": "It was around this time that Apple released the iPhone 5, with it's taller screen. Unfortunately, the app was designed and built to utilize only one screen size (at two resolutions) as there were never any plans to port this app to other devices. Due to budget constraints on the project, the decision was made to skip a rework of the menus and layout."
+				// 		},
+				// 	]
+				// },
+				// {
+				// 	"textBlock": true,
+				// 	"quote": false,
+				// 	"textBlocks": [
+				// 		{
+				// 			"content": ""
+				// 		},
+				// 	]
+				// },
+			]
+		}
+	);
+};
