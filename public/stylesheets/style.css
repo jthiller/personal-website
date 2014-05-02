@@ -221,7 +221,7 @@ header .menuButton:before,
 header .menuButton:after {
   position: absolute;
   top: 1.08em;
-  left: 0.39999999999999997em;
+  left: 0.4em;
   background-color: #222;
   content: "";
   -webkit-transition: 0.2s ease;
@@ -231,8 +231,8 @@ header .menuButton:after {
   transition: 0.2s ease;
 }
 header .menuButton:before {
-  width: 1.5999999999999999em;
-  height: 0.19999999999999998em;
+  width: 1.6em;
+  height: 0.2em;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
@@ -240,8 +240,8 @@ header .menuButton:before {
   transform: rotate(90deg);
 }
 header .menuButton:after {
-  width: 1.5999999999999999em;
-  height: 0.19999999999999998em;
+  width: 1.6em;
+  height: 0.2em;
 }
 header.active .menuButton:before {
   -webkit-transform: rotate(0);
@@ -548,7 +548,8 @@ footer a:hover {
     margin-bottom: 2rem;
     height: 10rem;
   }
-  section.homeImage .caption p,section.homeImage .caption h3 {
+  section.homeImage .caption p,
+  section.homeImage .caption h3 {
     max-width: 90%;
   }
   section.fullImage {
@@ -557,7 +558,8 @@ footer a:hover {
   section.singleImage {
     margin-bottom: 1rem;
   }
-  section.textBlock p,section.textBlock h2 {
+  section.textBlock p,
+  section.textBlock h2 {
     margin-bottom: 1rem;
   }
   .cp_embed_iframe {
@@ -588,7 +590,8 @@ footer a:hover {
     float: left;
     margin: 2.5% 5%;
   }
-  section.homeImage .caption p,section.homeImage .caption h3 {
+  section.homeImage .caption p,
+  section.homeImage .caption h3 {
     float: none;
   }
   section.homeImage .image {
@@ -647,7 +650,8 @@ footer a:hover {
     max-width: 90%;
     margin-left: 2.5%;
   }
-  section.textBlock p,section.textBlock h2 {
+  section.textBlock p,
+  section.textBlock h2 {
     margin: 0 auto;
     width: 90%;
     margin: 0 0 0.5rem 5%;
@@ -669,7 +673,6 @@ footer a:hover {
     -ms-transform: translateX(-90%);
     transform: translateX(-90%);
   }
-
   2% {
     -webkit-transform: translateX(-94%);
     -moz-transform: translateX(-94%);
@@ -677,7 +680,6 @@ footer a:hover {
     -ms-transform: translateX(-94%);
     transform: translateX(-94%);
   }
-
   8%, 10% {
     -webkit-transform: translateX(-85%);
     -moz-transform: translateX(-85%);
@@ -685,7 +687,6 @@ footer a:hover {
     -ms-transform: translateX(-85%);
     transform: translateX(-85%);
   }
-
   16% {
     -webkit-transform: translateX(-70%);
     -moz-transform: translateX(-70%);
@@ -693,7 +694,6 @@ footer a:hover {
     -ms-transform: translateX(-70%);
     transform: translateX(-70%);
   }
-
   50% {
     -webkit-transform: translateX(-55%);
     -moz-transform: translateX(-55%);
@@ -701,7 +701,6 @@ footer a:hover {
     -ms-transform: translateX(-55%);
     transform: translateX(-55%);
   }
-
   100% {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -718,7 +717,6 @@ footer a:hover {
     -ms-transform: translateX(-90%);
     transform: translateX(-90%);
   }
-
   2% {
     -webkit-transform: translateX(-94%);
     -moz-transform: translateX(-94%);
@@ -726,7 +724,6 @@ footer a:hover {
     -ms-transform: translateX(-94%);
     transform: translateX(-94%);
   }
-
   8%, 10% {
     -webkit-transform: translateX(-85%);
     -moz-transform: translateX(-85%);
@@ -734,7 +731,6 @@ footer a:hover {
     -ms-transform: translateX(-85%);
     transform: translateX(-85%);
   }
-
   16% {
     -webkit-transform: translateX(-70%);
     -moz-transform: translateX(-70%);
@@ -742,7 +738,6 @@ footer a:hover {
     -ms-transform: translateX(-70%);
     transform: translateX(-70%);
   }
-
   50% {
     -webkit-transform: translateX(-55%);
     -moz-transform: translateX(-55%);
@@ -750,7 +745,6 @@ footer a:hover {
     -ms-transform: translateX(-55%);
     transform: translateX(-55%);
   }
-
   100% {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -767,7 +761,6 @@ footer a:hover {
     -ms-transform: translateX(-90%);
     transform: translateX(-90%);
   }
-
   2% {
     -webkit-transform: translateX(-94%);
     -moz-transform: translateX(-94%);
@@ -775,7 +768,6 @@ footer a:hover {
     -ms-transform: translateX(-94%);
     transform: translateX(-94%);
   }
-
   8%, 10% {
     -webkit-transform: translateX(-85%);
     -moz-transform: translateX(-85%);
@@ -783,7 +775,6 @@ footer a:hover {
     -ms-transform: translateX(-85%);
     transform: translateX(-85%);
   }
-
   16% {
     -webkit-transform: translateX(-70%);
     -moz-transform: translateX(-70%);
@@ -791,7 +782,6 @@ footer a:hover {
     -ms-transform: translateX(-70%);
     transform: translateX(-70%);
   }
-
   50% {
     -webkit-transform: translateX(-55%);
     -moz-transform: translateX(-55%);
@@ -799,56 +789,6 @@ footer a:hover {
     -ms-transform: translateX(-55%);
     transform: translateX(-55%);
   }
-
-  100% {
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-}
-@-ms-keyframes mockload {
-  0% {
-    -webkit-transform: translateX(-90%);
-    -moz-transform: translateX(-90%);
-    -o-transform: translateX(-90%);
-    -ms-transform: translateX(-90%);
-    transform: translateX(-90%);
-  }
-
-  2% {
-    -webkit-transform: translateX(-94%);
-    -moz-transform: translateX(-94%);
-    -o-transform: translateX(-94%);
-    -ms-transform: translateX(-94%);
-    transform: translateX(-94%);
-  }
-
-  8%, 10% {
-    -webkit-transform: translateX(-85%);
-    -moz-transform: translateX(-85%);
-    -o-transform: translateX(-85%);
-    -ms-transform: translateX(-85%);
-    transform: translateX(-85%);
-  }
-
-  16% {
-    -webkit-transform: translateX(-70%);
-    -moz-transform: translateX(-70%);
-    -o-transform: translateX(-70%);
-    -ms-transform: translateX(-70%);
-    transform: translateX(-70%);
-  }
-
-  50% {
-    -webkit-transform: translateX(-55%);
-    -moz-transform: translateX(-55%);
-    -o-transform: translateX(-55%);
-    -ms-transform: translateX(-55%);
-    transform: translateX(-55%);
-  }
-
   100% {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -865,7 +805,6 @@ footer a:hover {
     -ms-transform: translateX(-90%);
     transform: translateX(-90%);
   }
-
   2% {
     -webkit-transform: translateX(-94%);
     -moz-transform: translateX(-94%);
@@ -873,7 +812,6 @@ footer a:hover {
     -ms-transform: translateX(-94%);
     transform: translateX(-94%);
   }
-
   8%, 10% {
     -webkit-transform: translateX(-85%);
     -moz-transform: translateX(-85%);
@@ -881,7 +819,6 @@ footer a:hover {
     -ms-transform: translateX(-85%);
     transform: translateX(-85%);
   }
-
   16% {
     -webkit-transform: translateX(-70%);
     -moz-transform: translateX(-70%);
@@ -889,7 +826,6 @@ footer a:hover {
     -ms-transform: translateX(-70%);
     transform: translateX(-70%);
   }
-
   50% {
     -webkit-transform: translateX(-55%);
     -moz-transform: translateX(-55%);
@@ -897,7 +833,6 @@ footer a:hover {
     -ms-transform: translateX(-55%);
     transform: translateX(-55%);
   }
-
   100% {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
