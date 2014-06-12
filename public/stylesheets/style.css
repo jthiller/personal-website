@@ -437,11 +437,11 @@ section.singleImage img {
   position: relative;
 }
 section.singleImage.scalable img {
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+  -webkit-transition: margin 0.25s ease, -webkit-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -moz-transition: margin 0.25s ease, -moz-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -o-transition: margin 0.25s ease, -o-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -ms-transition: margin 0.25s ease, -ms-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  transition: margin 0.25s ease, transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);

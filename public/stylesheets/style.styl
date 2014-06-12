@@ -384,7 +384,9 @@ section.singleImage
 			max-width: none
 			padding-left: 2.5%
 	&.scalable img
-		transition: all .25s ease
+		// transition: all .25s ease
+		// Trying to negate the jank of scaling an element with a box-shadow
+		transition: margin .25s ease, transform .25s ease, box-shadow .75s ease-out .25s
 		transform: translateZ(0)
 		width: 60%
 		cursor: pointer
