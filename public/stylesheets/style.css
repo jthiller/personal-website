@@ -309,6 +309,9 @@ header li.active a:hover {
 section {
   position: relative;
 }
+section:last-child {
+  margin-bottom: 3em !important;
+}
 section.masthead {
   height: 50em;
   margin-bottom: -15em;
