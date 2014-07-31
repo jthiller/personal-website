@@ -13,6 +13,7 @@
 blackColor = #222
 
 proximaFamily = "proxima-nova","Gill Sans MT","Gill Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+quicksandFamily = Quicksand,Raleway,"Gill Sans","Helvetica Neue",Helvetica,sans-serif
 
 borderThickness = .25em
 borderAnimTime = .35s
@@ -59,6 +60,13 @@ body
 	background: #fff
 	color: blackColor
 	font: 16px/1.5 proximaFamily
+	// Until Nib supports font-feature-settings
+	-moz-font-feature-settings:"liga" 1; 
+	-moz-font-feature-settings:"liga=1"; 
+	-ms-font-feature-settings:"liga" 1; 
+	-o-font-feature-settings:"liga" 1; 
+	-webkit-font-feature-settings:"liga" 1; 
+	font-feature-settings:"liga" 1;
 
 .pageframe
 	position: absolute
@@ -68,7 +76,7 @@ body
 		position: fixed
 		width: 0
 		height: 0
-		border: (borderThickness/2) solid blackColor
+		border: (borderThickness/2) solid lighten(blackColor, 7.5%)
 		transition: all borderAnimTime ease-in-out
 	.t, .b
 		width: 100%
@@ -140,19 +148,19 @@ span
 	opacity: 1
 
 p > a
-	color: #555
-	ransition: color .2s ease
+	color: lighten(blackColor, 25%)
+	transition: color .2s ease
 	&:hover
-		color: #888
+		color: lighten(blackColor, 50%)
 
 .browsehappy
 	margin: 0 0 .2em
 	background: #D52626
-	color: #FFF
+	color: #fff
 	padding: .75em 5em
 	a
 		border-bottom: 2px solid #fff
-		color: #FFF
+		color: #fff
 		text-decoration: none
 		font-weight: bold
 		&:hover
@@ -173,7 +181,7 @@ header
 		z-index: 10
 		width: buttonSize
 		height: buttonSize
-		border: borderThickness solid blackColor
+		border: borderThickness solid lighten(blackColor, 7.5%)
 		border-top: none
 		border-left: none
 		background: #fff
@@ -183,7 +191,7 @@ header
 			position: absolute
 			top: .45*buttonSize
 			left: (buttonSize/6)
-			background-color: blackColor
+			background-color: lighten(blackColor, 7.5%)
 			content: ""
 			transition: .2s ease
 		&:before
@@ -206,7 +214,7 @@ header
 		padding-top: 0
 		width: auto // Seems to work okay with this and left: -100%
 		height: buttonSize
-		border: borderThickness solid blackColor
+		border: borderThickness solid lighten(blackColor, 7.5%)
 		background-color: #fff
 		list-style: none
 		transition: left .5s cubic-bezier(0,.5,.5,1) //Check the validity of the curve.
@@ -269,7 +277,7 @@ section.masthead
 		letter-spacing: -.05em
 		font-weight: 300
 		font-size: 5em
-		font-family: Quicksand, sans-serif
+		font-family: quicksandFamily
 		line-height: 1em
 		transition: padding 1s, bottom 1s, border 1s, line-height 1s, font-size 1s
 		transition-timing-function: ease
