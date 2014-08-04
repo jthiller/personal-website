@@ -60,13 +60,6 @@ body
 	background: #fff
 	color: blackColor
 	font: 16px/1.5 proximaFamily
-	// Until Nib supports font-feature-settings
-	-moz-font-feature-settings:"liga" 1; 
-	-moz-font-feature-settings:"liga=1"; 
-	-ms-font-feature-settings:"liga" 1; 
-	-o-font-feature-settings:"liga" 1; 
-	-webkit-font-feature-settings:"liga" 1; 
-	font-feature-settings:"liga" 1;
 
 .pageframe
 	position: absolute
@@ -168,13 +161,11 @@ p > a
 
 header
 	buttonSize = 2.4em
-	position: fixed
+	fixed: top left
 	margin: borderThickness 0 0 borderThickness
 	height: buttonSize + borderThickness
 	overflow: hidden
 	z-index: 9002
-	top: 0
-	left: 0
 	transform-origin: top left
 	.menuButton
 		position: absolute
@@ -188,9 +179,7 @@ header
 		cursor: pointer
 		transform: translateZ(0)
 		&:before, &:after
-			position: absolute
-			top: .45*buttonSize
-			left: (buttonSize/6)
+			absolute: top .45*buttonSize left (buttonSize/6)
 			background-color: lighten(blackColor, 7.5%)
 			content: ""
 			transition: .2s ease
@@ -205,8 +194,7 @@ header
 		.menuButton:before
 			transform: rotate(0)
 	&.menu ul
-		position: relative
-		left: -100% //
+		relative: left -100%
 		z-index: 5
 		display: inline-block
 		float: left
@@ -267,9 +255,7 @@ section.masthead
 		margin-bottom: -12em
 		background-size: 25em !important
 	.title
-		position: absolute
-		bottom: 60%
-		left: 30%
+		absolute: bottom 60% left 30%
 		margin: 0
 		min-width: 60%
 		border-bottom: 1rem solid blackColor
@@ -553,9 +539,7 @@ section.textBlock
 			margin-bottom: 1rem
 
 footer
-	position: fixed
-	bottom: borderThickness
-	left: borderThickness * 2
+	fixed: bottom borderThickness left borderThickness * 2
 	a
 		text-decoration: none
 		color: #bbb

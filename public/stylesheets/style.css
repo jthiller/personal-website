@@ -4,12 +4,6 @@ body {
   background: #fff;
   color: #222;
   font: 16px/1.5 "proxima-nova", "Gill Sans MT", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -moz-font-feature-settings: "liga" 1;
-  -moz-font-feature-settings: "liga=1";
-  -ms-font-feature-settings: "liga" 1;
-  -o-font-feature-settings: "liga" 1;
-  -webkit-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga" 1;
 }
 .pageframe {
   position: absolute;
@@ -199,12 +193,12 @@ p > a:hover {
 }
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   margin: 0.25em 0 0 0.25em;
   height: 2.65em;
   overflow: hidden;
   z-index: 9002;
-  top: 0;
-  left: 0;
   -webkit-transform-origin: top left;
   -moz-transform-origin: top left;
   -o-transform-origin: top left;
