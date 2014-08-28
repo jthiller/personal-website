@@ -94,12 +94,7 @@ body
 		left: 0
 		transform: translateY(-50%)
 	&.headeranim .t
-		animation-name: mockload
-		animation-duration: 15s
-		animation-timing-function: ease-in
-		animation-iteration-count: 1
-		animation-fill-mode: forwards
-		animation-delay: .5s
+		animation: mockload 15s ease-in .5s 1 forwards
 	&.loaded .t, &.loaded .b
 		transform: translateX(0)
 	&.loaded .r, &.loaded .l
