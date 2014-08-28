@@ -375,8 +375,10 @@ section.singleImage
 	&.scalable img
 		// transition: all .25s ease
 		// Trying to negate the jank of scaling an element with a box-shadow
-		transition: margin .25s ease, transform .25s ease, box-shadow .75s ease-out .25s
-		transform: translateZ(0)
+		transition: transform .25s ease, box-shadow .75s ease-out .25s
+		transform: scale(1) translateZ(0)
+		transform-origin: 0% 5%
+		box-shadow: 0 0 0 transparent
 		width: 60%
 		cursor: pointer
 		cursor: -moz-zoom-in
@@ -389,9 +391,7 @@ section.singleImage
 			transform: none
 			transition: none
 		&.active
-			margin-left: 5%
-			transform: scale(1.5)
-			transform-origin: 0% 5%
+			transform: scale(1.5) translateX(-28%)
 			box-shadow: 0 25px 50px rgba(20,20,20,.2)
 			cursor: -moz-zoom-out
 			cursor: -webkit-zoom-out

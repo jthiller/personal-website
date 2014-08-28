@@ -416,16 +416,23 @@ section.singleImage img {
   position: relative;
 }
 section.singleImage.scalable img {
-  -webkit-transition: margin 0.25s ease, -webkit-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
-  -moz-transition: margin 0.25s ease, -moz-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
-  -o-transition: margin 0.25s ease, -o-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
-  -ms-transition: margin 0.25s ease, -ms-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
-  transition: margin 0.25s ease, transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -moz-transition: -moz-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -o-transition: -o-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -ms-transition: -ms-transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  transition: transform 0.25s ease, box-shadow 0.75s ease-out 0.25s;
+  -webkit-transform: scale(1) translateZ(0);
+  -moz-transform: scale(1) translateZ(0);
+  -o-transform: scale(1) translateZ(0);
+  -ms-transform: scale(1) translateZ(0);
+  transform: scale(1) translateZ(0);
+  -webkit-transform-origin: 0% 5%;
+  -moz-transform-origin: 0% 5%;
+  -o-transform-origin: 0% 5%;
+  -ms-transform-origin: 0% 5%;
+  transform-origin: 0% 5%;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
   width: 60%;
   cursor: pointer;
   cursor: -moz-zoom-in;
@@ -433,17 +440,11 @@ section.singleImage.scalable img {
   cursor: zoom-in;
 }
 section.singleImage.scalable img.active {
-  margin-left: 5%;
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -o-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  -webkit-transform-origin: 0% 5%;
-  -moz-transform-origin: 0% 5%;
-  -o-transform-origin: 0% 5%;
-  -ms-transform-origin: 0% 5%;
-  transform-origin: 0% 5%;
+  -webkit-transform: scale(1.5) translateX(-28%);
+  -moz-transform: scale(1.5) translateX(-28%);
+  -o-transform: scale(1.5) translateX(-28%);
+  -ms-transform: scale(1.5) translateX(-28%);
+  transform: scale(1.5) translateX(-28%);
   -webkit-box-shadow: 0 25px 50px rgba(20,20,20,0.2);
   box-shadow: 0 25px 50px rgba(20,20,20,0.2);
   cursor: -moz-zoom-out;
