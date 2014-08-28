@@ -78,6 +78,7 @@ body
 	.t
 		top: 0
 		right: 0
+		box-shadow: -5px 8px 0px 5px rgba(51, 51, 51, 0.4)
 		transform: translateX(-50%)
 	.r
 		bottom: 0
@@ -100,6 +101,8 @@ body
 		animation-iteration-count: 1
 		animation-fill-mode: forwards
 		animation-delay: .5s
+	&.loaded .t
+		box-shadow: 0 0 0 0 transparent
 	&.loaded .t, &.loaded .b
 		transform: translateX(0)
 	&.loaded .r, &.loaded .l

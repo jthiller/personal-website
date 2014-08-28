@@ -37,6 +37,8 @@ body {
 .pageframe .t {
   top: 0;
   right: 0;
+  -webkit-box-shadow: -5px 8px 0px 5px rgba(51,51,51,0.4);
+  box-shadow: -5px 8px 0px 5px rgba(51,51,51,0.4);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
@@ -111,6 +113,10 @@ body {
   -o-animation-delay: 0.5s;
   -ms-animation-delay: 0.5s;
   animation-delay: 0.5s;
+}
+.pageframe.loaded .t {
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
 }
 .pageframe.loaded .t,
 .pageframe.loaded .b {
