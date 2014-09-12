@@ -5,6 +5,7 @@ This is the repo for the backend and frontend code of my personal website.
 ##Content Notes
 * Home Page
   * Straight into portfolio
+  * Need to add iOS app and other projects
 * About Page
   * Brief overview of me
   * A couple of images
@@ -13,6 +14,7 @@ This is the repo for the backend and frontend code of my personal website.
   * Social Links, Email
 * Blog
   * Outlet for smaller projects.
+  * Should be next focus.
 
 ## Structure Notes
 * Node.js
