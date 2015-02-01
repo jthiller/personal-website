@@ -262,7 +262,7 @@ header li {
 }
 header li a {
   margin: 0 1.28em;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid transparent;
   color: #222;
   text-decoration: none;
   -webkit-transition: border-bottom 0.3s ease;
@@ -273,7 +273,7 @@ header li a {
   font-size: 0.8em;
 }
 header li a:hover {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid currentcolor;
 }
 header li.active a {
   color: #919191;
@@ -310,7 +310,7 @@ section.masthead .title {
   left: 30%;
   margin: 0;
   min-width: 60%;
-  border-bottom: 1rem solid #222;
+  border-bottom: 1rem solid currentcolor;
   text-transform: uppercase;
   letter-spacing: -0.05em;
   font-weight: 300;
@@ -480,6 +480,7 @@ section.textBlock h2 {
   transition: margin 1s ease, height 1s ease;
   margin: 0 0 1.5rem 30%;
   width: 60%;
+  max-width: 40em;
   font-weight: 400;
 }
 section.textBlock h2 {
@@ -525,7 +526,7 @@ footer a:hover {
   }
   section.masthead .title {
     font-size: 2.5em;
-    border-bottom: 0.5rem solid #222;
+    border-bottom: 0.5rem solid currentcolor;
   }
   section.homeImage {
     margin-bottom: 2rem;
@@ -559,7 +560,7 @@ footer a:hover {
   section.masthead .title {
     left: 5%;
     font-size: 2rem;
-    border-bottom: 0.25rem solid #222;
+    border-bottom: 0.25rem solid currentcolor;
   }
   section.homeImage {
     margin-bottom: 1rem;

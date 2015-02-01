@@ -1,10 +1,10 @@
-//		  _					   _    _ _ _ _
-//		 | |				  | |  | (_| | |
+//		  _					   				 _    _ _ _ _
+//		 | |								  | |  | (_| | |
 //		 | | ___   ___ _   _  | |__| |_| | | ___ _ __
-//	 _   | |/ _ \ / _ | | | | |  __  | | | |/ _ | '__|
-//	| |__| | (_) |  __| |_| | | |  | | | | |  __| |
-//	 \____/ \___/ \___|\__, | |_|  |_|_|_|_|\___|_|
-//						__/ |
+// _   | |/ _ \ / _ | | | | |  __  | | | |/ _ | '__|
+//| |__| | (_) |  __| |_| | | |  | | | | |  __| |
+// \____/ \___/ \___|\__, | |_|  |_|_|_|_|\___|_|
+//										__/ |
 //		Stylus CSS	   |___/         (c)2014
 
 // vendor-prefixes ?= webkit moz official
@@ -212,13 +212,13 @@ header
 		margin-top: ((2*buttonSize)/15)
 		a
 			margin: 0 ((8*buttonSize)/15)
-			border-bottom: 1px solid #fff
+			border-bottom: 1px solid transparent
 			color: blackColor
 			text-decoration: none
 			transition: border-bottom .3s ease
 			font-size: 1em *.8
 			&:hover
-				border-bottom: 1px solid blackColor
+				border-bottom: 1px solid currentcolor
 		&.active a
 			color: blackColor + 50%
 			&:hover
@@ -253,7 +253,7 @@ section.masthead
 		absolute: bottom 60% left 30%
 		margin: 0
 		min-width: 60%
-		border-bottom: 1rem solid blackColor
+		border-bottom: 1rem solid currentcolor
 		text-transform: uppercase
 		letter-spacing: -.05em
 		font-weight: 300
@@ -264,11 +264,11 @@ section.masthead
 		transition-timing-function: ease
 		+media('tablet')
 			font-size: 2.5em
-			border-bottom: .5rem solid blackColor
+			border-bottom: .5rem solid currentcolor
 		+media('phones')
 			left: 5%
 			font-size: 2rem
-			border-bottom: .25rem solid blackColor
+			border-bottom: .25rem solid currentcolor
 
 section.homeImage
 	overflow-y: hidden
@@ -501,6 +501,7 @@ section.textBlock
 		transition: margin 1s ease, height 1s ease
 		margin: 0 0 1.5rem 30%
 		width: 60%
+		max-width: 40em
 		font-weight: 400
 		+media('phones')
 			margin: 0 auto
